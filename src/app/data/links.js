@@ -136,8 +136,34 @@ export default  [
         "title":"The Game of Life  Florence Scovel Shinn"
     },
     {
-        "link": "/pdf/OnTheShortnessofLife-Seneca.pdf",
-        "title":" On The Shortness of Life  Seneca"
+        "link": "https://www2.census.gov/prod2/statcomp/documents/HistoricalStatisticsoftheUnitedStates1789-1945.pdf",
+        "title":" Historical Statistics of United States"
+    },
+	{
+        "link": "https://archive.org/details/take-ivy-t.-hayashida/mode/2up",
+        "title":" Take Ivy Images"
+    },
+	{
+        "link": "/pdf/CrossCulturalVariation.pdf",
+        "title":" Cross cultural variations in psychiatrists perception of mental illness"
+    },
+	{
+        "link": "https://www.goldennumber.net/wp-content/uploads/pepsi-arnell-021109.pdf",
+        "title":" Pepsi Logo Desgin"
+    },
+	
+	{
+        "link": "https://champ.usuhs.edu/sites/default/files/2020-03/navysealfitnessguide.pdf",
+        "title":" navy seal fitness guide"
+    },
+	
+	{
+        "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
+        "title":" The art of computer desigining"
+    },
+	{
+        "link": "pdf/FacebookLittleRedBook",
+        "title":" Facebook's Little Red Book"
     },
     
 ]

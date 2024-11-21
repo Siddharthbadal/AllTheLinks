@@ -7,8 +7,8 @@ export default function MyPDFs() {
     <div className=" flex flex-col mb-16 border-gray-800  p-8">
         { 
             pdflinks.map((pl)=>(
-                <Link href={pl.link} target="_blank" className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-800  delay-300"> 
-                <span>
+                <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-800  delay-300"> 
+                <span className="capitalize">
                     {pl.title}
                 </span>
             </Link>
