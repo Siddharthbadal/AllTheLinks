@@ -53,7 +53,7 @@ export default  [
     },
     {
         "link": "https://cran.r-project.org/web/packages/psyphy/psyphy.pdf",
-        "title":"Functions for Analyzing Psychophysical Data in R- psyphy"
+        "title":"Functions for Analyzing Psycho-physical Data in R- psyphy"
     },
     {
         "link": "https://gandalf.fee.urv.cat/professors/AntonioQuesada/Curs1920/Cipolla_laws.pdf",
@@ -149,7 +149,7 @@ export default  [
     },
 	{
         "link": "https://www.goldennumber.net/wp-content/uploads/pepsi-arnell-021109.pdf",
-        "title":" Pepsi Logo Desgin"
+        "title":" Pepsi Logo Design"
     },
 	
 	{
@@ -159,11 +159,16 @@ export default  [
 	
 	{
         "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
-        "title":" The art of computer desigining"
+        "title":" The art of computer designing"
     },
 	{
         "link": "pdf/FacebookLittleRedBook",
         "title":" Facebook's Little Red Book"
     },
+	{
+        "link": "https://dutraeconomicus.wordpress.com/wp-content/uploads/2014/02/you-are-not-so-smart.pdf",
+        "title":" You are not so smart"
+    },
+	
     
 ]
