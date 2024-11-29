@@ -17,7 +17,7 @@ export default  [
     },
     {
         "link": "https://www.andrewburke.me/media/Gracian.pdf",
-        "title":"THE ART OF WORLDLY WISDOM"
+        "title":"The art of worldly wisdom"
     },
     {
         "link": "https://oms-inet.files.svdcdn.com/production/files/JEL-v2.0.pdf",
@@ -162,7 +162,7 @@ export default  [
         "title":" The art of computer designing"
     },
 	{
-        "link": "pdf/FacebookLittleRedBook",
+        "link": "pdf/FacebookLittleRedBook.pdf",
         "title":" Facebook's Little Red Book"
     },
 	{
