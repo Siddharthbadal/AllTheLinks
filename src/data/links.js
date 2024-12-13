@@ -61,7 +61,7 @@ export default  [
     },
     {
         "link": "https://targetedindividualscanada.com/wp-content/uploads/2011/12/monarch-the-new-phoenix-program.pdf",
-        "title":"MONARCH: THE NEW PHOENIX PROGRAM"
+        "title":"Monarch: The New Phonix Project"
     },
     {
         "link": "https://www.docdroid.net/4H1DgHE/nac-protocol-printable-pdf",
@@ -73,11 +73,11 @@ export default  [
     },
     {
         "link": "https://med.emory.edu/departments/neurology/_documents/cousteau_swimming_sharks.pdf",
-        "title":"HOW TO SWIM WITH SHARKS: A PRIMER"
+        "title":"How to swim with sharks"
     },
     {
         "link": "https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf",
-        "title":"THE UNREASONABLE EFFECTIVENSS OF MATHEMATICS IN THE NATURAL SCIENCES"
+        "title":"The Unreasonable effectiveness of mathmatics in the natural science"
     },
     {
         "link": "https://www2.imm.dtu.dk/pubdb/pubs/3274-full.html",
@@ -87,18 +87,9 @@ export default  [
         "link": "https://arxiv.org/pdf/1409.0003",
         "title":"What You Should Know About Megaprojects, and Why"
     },
-    {
-        "link": "/pdf/TheGodDelusion.pdf",
-        "title":"The God Delusion"
-    },
-    {
-        "link": "/pdf/TheElephaintInTheBrain.pdf",
-        "title":"The Elephaint In The Brain"
-    },
-    {
-        "link": "/pdf/ItDidn'tStartWithYou.pdf",
-        "title":"It Didn't Start With You"
-    },
+   
+    
+    
     {
         "link": "/pdf/TheAlmanackofNavalRavikant.pdf",
         "title":"The Almanack of Naval Ravikant"
@@ -115,26 +106,9 @@ export default  [
         "link": "https://archive.org/details/outwitting-the-devil-napoleon-hill/page/115/mode/2up",
         "title":"Outwitting the Devil"
     },
-    {
-        "link": "/pdf/TheMeditationsofMarcusAurelius.pdf",
-        "title":"The Meditations of MarcusAurelius"
-    },
-    {
-        "link": "/pdf/The-way-of-the-superior-man.pdf",
-        "title":"The Way Of Superior Man"
-    },
-    {
-        "link": "/pdf/SkinInTheGame.pdf",
-        "title":"Skin in the Game "
-    },
-    {
-        "link": "/pdf/Memnon-Voltaire.pdf",
-        "title":"Memnon Voltaire"
-    },
-    {
-        "link": "/pdf/TheGameofLife-FlorenceScovelShinn.pdf",
-        "title":"The Game of Life  Florence Scovel Shinn"
-    },
+  
+    
+    
     {
         "link": "https://www2.census.gov/prod2/statcomp/documents/HistoricalStatisticsoftheUnitedStates1789-1945.pdf",
         "title":" Historical Statistics of United States"
@@ -143,10 +117,7 @@ export default  [
         "link": "https://archive.org/details/take-ivy-t.-hayashida/mode/2up",
         "title":" Take Ivy Images"
     },
-	{
-        "link": "/pdf/CrossCulturalVariation.pdf",
-        "title":" Cross cultural variations in psychiatrists perception of mental illness"
-    },
+	
 	{
         "link": "https://www.goldennumber.net/wp-content/uploads/pepsi-arnell-021109.pdf",
         "title":" Pepsi Logo Design"
@@ -155,20 +126,17 @@ export default  [
 	{
         "link": "https://champ.usuhs.edu/sites/default/files/2020-03/navysealfitnessguide.pdf",
         "title":" navy seal fitness guide"
-    },
+    },	
 	
-	{
-        "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
-        "title":" The art of computer designing"
-    },
-	{
-        "link": "pdf/FacebookLittleRedBook.pdf",
-        "title":" Facebook's Little Red Book"
-    },
 	{
         "link": "https://dutraeconomicus.wordpress.com/wp-content/uploads/2014/02/you-are-not-so-smart.pdf",
         "title":" You are not so smart"
     },
+	{
+        "link": "hhttps://www.gutenberg.org/cache/epub/13402/pg13402-images.html",
+        "title":" The Hindu-Yogi Science of Breath"
+    },
+    
 	
     
 ]

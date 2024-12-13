@@ -12,19 +12,25 @@ export default function MyPDFs() {
   return (
 
       <div className="">
-          <form action="">
-            <input 
-              onChange={(e) =>{
-                setSearch(e.target.value)
-              }}
-              placeholder="search pdf"
-              className="w-1/2 outline-none font-semibold "
-              >
-            </input>
-          </form>
+                    
+          <div className="flex flex-row justify-between items-stretch ">
+                <form action="">
+                  <input 
+                    onChange={(e) =>{
+                      setSearch(e.target.value)
+                    }}
+                    placeholder="search pdf"
+                    className="w-1/2 outline-none font-semibold "
+                    >
+                  </input>
+                </form>
+                
+                
+          </div>
   
 
     <div className=" flex flex-col mb-16 border-gray-800 bg-zinc-100 p-8">
+    
         { 
             pdflinks.filter((item)=>{
               return search.toLowerCase() === '' ?
