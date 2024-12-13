@@ -99,6 +99,34 @@ export default  [
         "title":"Beyond Good And Evil"
     },
     {
+        "link": "/pdf/The-way-of-the-superior-man.pdf",
+        "title":"The way of the superior man"
+    },
+    {
+        "link": "/pdf/TheMeditationsofMarcusAurelius.pdf",
+        "title":"The Meditations of Marcus Aurelius"
+    },
+    {
+        "link": "/pdf/TheGameofLife-FlorenceScovelShinn.pdf",
+        "title":"The Game of Life Florence ScovelShinn"
+    },
+    {
+        "link": "/pdf/FacebookLittleRedBook.pdf",
+        "title":"Facebook Little RedBook"
+    },
+    {
+        "link": "/pdf/ItDidn'tStartWithYou.pdf",
+        "title":"It Didn't Start With You"
+    },
+    {
+        "link": "/pdf/OnTheShortnessofLife-Seneca.pdf",
+        "title":"On The Shortness of Life Seneca"
+    },
+    {
+        "link": "/pdf/NothingMattersbyCarles.pdf",
+        "title":"Nothing Matters by Carles"
+    },
+    {
         "link": "https://archive.org/details/5FooledByRandomnessNassimTaleb/page/n131/mode/2up?view=theater",
         "title":"Fooled By Randomness"
     },
@@ -133,9 +161,22 @@ export default  [
         "title":" You are not so smart"
     },
 	{
-        "link": "hhttps://www.gutenberg.org/cache/epub/13402/pg13402-images.html",
+        "link": "https://www.gutenberg.org/cache/epub/13402/pg13402-images.html",
         "title":" The Hindu-Yogi Science of Breath"
     },
+	{
+        "link": "/pdf/The-Elephant-in-the-Brain",
+        "title":" The Elephant in the Brain"
+    },
+	{
+        "link": "/pdf/eat-that-frog",
+        "title":" Eat That Frog"
+    },
+	{
+        "link": "/pdf/The-Psychology-of-Money",
+        "title":" The Psychology of Money"
+    },
+	
     
 	
     

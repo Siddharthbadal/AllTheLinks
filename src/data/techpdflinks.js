@@ -177,7 +177,79 @@ export default [
         "title" :  "Linux Journey "
     },
     {
-        "link": " ",
-        "title" :  " "
+        "link": "https://overthewire.org/wargames/",
+        "title" :  " Linux Wargames"
+    },
+    {
+        "link": "https://linuxsurvival.com/",
+        "title" :  "Linux Survival "
+    },
+    {
+        "link": "https://guide.bash.academy/",
+        "title" :  " The Bash Guide"
+    },
+    {
+        "link": "https://everything.curl.dev/",
+        "title" :  "Everything Curl"
+    },
+    {
+        "link": "https://www.youtube.com/playlist?list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p",
+        "title" :  " FastAPI - Youtube"
+    },
+    {
+        "link": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbQXKsyNweppuFptuogJe2L-",
+        "title" :  "Django ORM Deep Dive - Youtube "
+    },
+    {
+        "link": "https://www.youtube.com/playlist?list=PLNcg_FV9n7qYbaPnCyc78z3s7km5tjN1A",
+        "title" :  " SQL Windows Functions - Youtube"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=mm_sN-Elplg",
+        "title" :  " Excel to PowerBI - Youtube"
+    },
+    {
+        "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
+        "title" :  "Python Grammar"
+    },
+    {
+        "link": "./pypdf/EffectivePython.pdf",
+        "title" :  "Effective Python"
+    },
+    {
+        "link": "./pypdf/python-one-liners.pdf",
+        "title" :  "python one liners"
+    },
+    {
+        "link": "./pypdf/The-big-book-of-small-python-projects.pdf",
+        "title" :  "The Big Book of small Python projects"
+    },
+    {
+        "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
+        "title" :  "The Recursive Book of Python"
+    },
+    {
+        "link": "./pypdf/javascriptgrammar-dark.pdf",
+        "title" :  "Javascript Grammar"
+    },
+    {
+        "link": "./pypdf/Data_Structures_and_Algorithms_Python.pdf",
+        "title" :  "Data Structures and Algorithms Python"
+    },
+    {
+        "link": "./pypdf/Maths-for-computer-science.pdf",
+        "title" :  "Maths for computer science"
+    },
+    {
+        "link": "./pypdf/dive-into-design-patterns-en-demo.pdf",
+        "title" :  "Deep Dive into design patterns"
+    },
+    {
+        "link": "./pypdf/Intermediate-Python.pdf",
+        "title" :  "Intermediate Python"
+    },
+    {
+        "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
+        "title" :  "Python Grammar"
     },
 ]
