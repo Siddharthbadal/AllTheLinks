@@ -3,7 +3,7 @@
 import Link from "next/link"
 import techpdflinks from "@/data/techpdflinks.js"
 import { useState } from "react"
-import Navbar from "../components/Navbar.jsx"
+
 
 
 
@@ -13,7 +13,7 @@ export default function TechPDFs() {
   return (
 
       <div className="flex flex-col justify-center items-center gap-8 bg-zinc-100 mx-auto border">
-                   <Navbar  />
+                  
           <div className="">
                 <form action="">
                   <input 
@@ -21,7 +21,7 @@ export default function TechPDFs() {
                       setSearch(e.target.value)
                     }}
                     placeholder="search pdf"
-                    className="w-1/2 outline-none font-semibold "
+                    className="w-full outline-none font-semibold text-gray-600 first:h-6 mt-1 rounded"
                     >
                   </input>
                 </form>

@@ -208,10 +208,7 @@ export default [
         "link": "https://www.youtube.com/watch?v=mm_sN-Elplg",
         "title" :  " Excel to PowerBI - Youtube"
     },
-    {
-        "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
-        "title" :  "Python Grammar"
-    },
+    
     {
         "link": "./pypdf/EffectivePython.pdf",
         "title" :  "Effective Python"
@@ -259,5 +256,53 @@ export default [
     {
         "link": "./pypdf/Impractical-Python-Projects.pdf",
         "title" :  "Impractical Python Projects"
+    },
+    {
+        "link": "https://antaripasaha.notion.site/Data-Science-All-in-one-f7b861fc69dd49439231b8c14a0e330b",
+        "title" :  "Data Science Notes - Notion"
+    },
+    {
+        "link": "http://philip.greenspun.com/sql/",
+        "title" :  "SQL for Web Nerds"
+    },
+    {
+        "link": "https://www.windowfunctions.com/",
+        "title" :  "SQL Windows Functions"
+    },
+    {
+        "link": "https://www.sqlshack.com/",
+        "title" :  "SQLShack - Blogs"
+    },
+    {
+        "link": "https://sqlpd.com/",
+        "title" :  "Practice SQL"
+    },
+    {
+        "link": "https://www.interdb.jp/pg/",
+        "title" :  "The Internals of PostgreSQL"
+    },
+    {
+        "link": "https://use-the-index-luke.com/",
+        "title" :  "Use The Index Luke - Blogs"
+    },
+    {
+        "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",
+        "title" :  "Database Internals Notes - Github"
+    },
+    {
+        "link": "https://cstack.github.io/db_tutorial/",
+        "title" :  "Let's Build a Simple Database"
+    },
+    {
+        "link": "https://sqlzap.com/",
+        "title" :  "Learn SQL - Blogs"
+    },
+    {
+        "link": "https://dataschool.com/sql-optimization/",
+        "title" :  "SQL optimization"
+    },
+    {
+        "link": "https://mystery.knightlab.com/",
+        "title" :  "SQL Murder Mystery"
     },
 ]

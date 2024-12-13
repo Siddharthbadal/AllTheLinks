@@ -3,6 +3,7 @@
 import Link from "next/link"
 import pdflinks from "../../data/links.js"
 import { useState } from "react"
+import MapPdf from "@/helper/map-pdf.jsx"
 
 
 
@@ -11,16 +12,16 @@ export default function MyPDFs() {
 
   return (
 
-      <div className="">
+      <div className="flex flex-col justify-center items-center gap-8 bg-zinc-100 mx-auto">
                     
-          <div className="flex flex-row justify-between items-stretch ">
+          <div className=" ">
                 <form action="">
                   <input 
                     onChange={(e) =>{
                       setSearch(e.target.value)
                     }}
                     placeholder="search pdf"
-                    className="w-1/2 outline-none font-semibold "
+                    className="w-full outline-none font-semibold text-gray-600 first:h-6 mt-1 rounded"
                     >
                   </input>
                 </form>
@@ -30,7 +31,7 @@ export default function MyPDFs() {
   
 
     <div className=" flex flex-col mb-16 border-gray-800 bg-zinc-100 p-8">
-    
+                    
         { 
             pdflinks.filter((item)=>{
               return search.toLowerCase() === '' ?
