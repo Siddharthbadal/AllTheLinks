@@ -241,7 +241,7 @@ export default [
         "title" :  "Maths for computer science"
     },
     {
-        "link": "./pypdf/dive-into-design-patterns-en-demo.pdf",
+        "link": "./pypdf/dive-into-design-patterns.pdf",
         "title" :  "Deep Dive into design patterns"
     },
     {
@@ -251,5 +251,13 @@ export default [
     {
         "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
         "title" :  "Python Grammar"
+    },
+    {
+        "link": "./pypdf/gobook.pdf",
+        "title" :  "go book"
+    },
+    {
+        "link": "./pypdf/Impractical-Python-Projects.pdf",
+        "title" :  "Impractical Python Projects"
     },
 ]
