@@ -7,10 +7,10 @@ export default function Home() {
                    
 
                      <h3 className="text-center text-xl text-gray-600 -mt-24">
-                          Wanted to put all tech and non-tech PDF files and links at one place.   <br />                        
-                     so here these.      <br />              
+                          Wanted to have all tech and non-tech PDF files and links, <br />
+                           courses and videos at one place.   <br />                                                     
                       Feel free to use. <br />
-                      Might not be very user friendly. Will keep updating.</h3>
+                      Will keep updating the site to make it user friendly.</h3>
 
                       <ul className="font-medium flex flex-col justify-center items-stretch gap-8 p-8 md:p-0 mt-2 rounded-lg  md:flex-row text-gray-600">
         <li>
