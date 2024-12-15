@@ -12,7 +12,7 @@ export default function MyPDFs() {
 
   return (
 
-      <div className="flex flex-col justify-center items-center gap-8 bg-zinc-100 mx-auto">
+      <div className="flex flex-col justify-center items-center gap-4 bg-zinc-100 mx-auto">
                     
           <div className=" ">
                 <form action="">
@@ -20,7 +20,7 @@ export default function MyPDFs() {
                     onChange={(e) =>{
                       setSearch(e.target.value)
                     }}
-                    placeholder="search pdf"
+                    placeholder="search "
                     className="w-full outline-none font-semibold text-gray-600 first:h-6 mt-1 rounded"
                     >
                   </input>

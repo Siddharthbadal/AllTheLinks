@@ -404,4 +404,18 @@ export default [
         "type": "Youtube",
         "title" :  "JavaScript Algorithms and Data Structures "
     },
+	{
+		"link": "https://www.pythoncheatsheet.org/",
+		"type":"Text",
+		"title":"Python Cheat Sheet"
+	},
+	{
+		"link": "https://www.javascriptcheatsheet.org/",
+		"type":"Text",
+		"title":"JavaScript Cheat Sheet"
+	},
+	
+	
+	
+	
 ]

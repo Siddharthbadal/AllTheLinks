@@ -10,7 +10,7 @@ export default function Navbar() {
     
     <div className="hidden w-full md:block md:w-auto" id="navbar-default">
     <h1 className="text-2xl font-bold mx-auto text-center mt-4">
-      <Link href="/">All The PDFs</Link>
+      <Link href="/">🔗 All The Links</Link>
     </h1>
       <ul className="font-medium flex flex-col justify-center items-stretch gap-8 p-8 md:p-0 mt-2 rounded-lg  md:flex-row text-gray-600">
         <li>
