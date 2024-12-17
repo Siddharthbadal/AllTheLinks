@@ -4,15 +4,23 @@ import Link from "next/link"
 import techpdflinks from "@/data/techpdflinks.js"
 import { useState } from "react"
 import TechNav from "../components/TechNav"
+import { Pagination } from "../components/Pagination"
 
 
 export default function TechPDFs() {
     const [search, setSearch] = useState('')
+    const [ links, setLinks ] = useState(techpdflinks)
+    const [currentPage, setCurrentPage] = useState(1);
+    const [linksPerPage, setLinksPerPage] = useState(15)
+
+    const lastLinkIndex = currentPage * linksPerPage;
+    const firstLinkIndex = lastLinkIndex - linksPerPage;
+    const currentLinks = techpdflinks.slice(firstLinkIndex, lastLinkIndex)
+
 
   return (
 
-      <div className="flex flex-col justify-center items-center gap-2 bg-zinc-100 mx-auto border">
-                            
+      <div className="flex flex-col justify-center items-center gap-2 bg-zinc-100 mx-auto border">                            
                 <form action="">
                   <input 
                     onChange={(e) =>{
@@ -32,7 +40,7 @@ export default function TechPDFs() {
     <div className=" flex flex-col justify-center mb-16 border-gray-800 bg-zinc-100 p-8">
     
         { 
-            techpdflinks.filter((item)=>{
+            currentLinks.filter((item)=>{
               return search.toLowerCase() === '' ?
               item: item.title.toLowerCase().includes(search) || 
               item.type.toLowerCase().includes(search)
@@ -64,8 +72,10 @@ export default function TechPDFs() {
             )
         }
             
+          <div className="text-center mt-4 border-t-8">
+                <Pagination totalLinks={links.length} linksPerPage={linksPerPage} setCurrentPage={setCurrentPage} currentPage={{currentPage}} />
+          </div>
     </div>
-
 
 
     </div>

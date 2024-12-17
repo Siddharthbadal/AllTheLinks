@@ -3,12 +3,18 @@
 import Link from "next/link"
 import pdflinks from "../../data/links.js"
 import { useState } from "react"
-import MapPdf from "@/helper/map-pdf.jsx"
-
+import { Pagination } from "../components/Pagination"
 
 
 export default function MyPDFs() {
     const [search, setSearch] = useState('')
+        const [ links, setLinks ] = useState(pdflinks)
+        const [currentPage, setCurrentPage] = useState(1);
+        const [linksPerPage, setLinksPerPage] = useState(15)
+    
+        const lastLinkIndex = currentPage * linksPerPage;
+        const firstLinkIndex = lastLinkIndex - linksPerPage;
+        const currentLinks = pdflinks.slice(firstLinkIndex, lastLinkIndex)
 
   return (
 
@@ -33,7 +39,7 @@ export default function MyPDFs() {
     <div className=" flex flex-col mb-16 border-gray-800 bg-zinc-100 p-8">
                     
         { 
-            pdflinks.filter((item)=>{
+            currentLinks.filter((item)=>{
               return search.toLowerCase() === '' ?
               item: item.title.toLowerCase().includes(search)
             }).map((pl)=>(
@@ -45,6 +51,10 @@ export default function MyPDFs() {
             )                
             )
         }
+
+        <div className="text-center mt-4 border-t-8">
+                        <Pagination totalLinks={links.length} linksPerPage={linksPerPage} setCurrentPage={setCurrentPage} currentPage={{currentPage}} />
+                  </div>
             
     </div>
 
