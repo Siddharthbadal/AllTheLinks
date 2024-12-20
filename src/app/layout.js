@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "All The PDFs",
+  title: "All The Links",
   description: "Collection of all the PDFs from all around the internet.",
 };
 
@@ -26,9 +26,13 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-            <Navbar  />     
+        <div className="flex flex-col lg:h-screen h-screen justify-between">
+              <Navbar  />     
                   {children}
-            <Footer />
+              <Footer />
+
+        </div>
+            
       </body>
     </html>
   );

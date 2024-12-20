@@ -46,12 +46,12 @@ export default  [
     },
     {
         "link": "https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf",
-        "type": "Paper",
+        "type": "Papers",
         "title":"The Part Time Parliament"
     },
     {
         "link": "https://www.researchgate.net/publication/228797158_How_complex_systems_fail",
-        "type": "Paper",
+        "type": "Papers",
         "title":"How Complex System fails"
     },
     {
@@ -61,12 +61,12 @@ export default  [
     },
     {
         "link": "https://bitcoin.org/bitcoin.pdf",
-        "type": "Paper",
+        "type": "Papers",
         "title":"Bitcoin: A Peer-to-Peer Electronic Cash System"
     },
     {
         "link": "https://cran.r-project.org/web/packages/psyphy/psyphy.pdf",
-        "type": "Paper",
+        "type": "Papers",
         "title":"Functions for Analyzing Psycho-physical Data in R- psyphy"
     },
     {
@@ -81,7 +81,7 @@ export default  [
     },
     {
         "link": "https://www.docdroid.net/4H1DgHE/nac-protocol-printable-pdf",
-        "type": "Paper",
+        "type": "Papers",
         "title":"The NAC Protocol"
     },
     {
@@ -106,7 +106,7 @@ export default  [
     },
     {
         "link": "https://arxiv.org/pdf/1409.0003",
-        "type": "Paper",
+        "type": "Papers",
         "title":"What You Should Know About Megaprojects, and Why"
     },
    
@@ -187,7 +187,7 @@ export default  [
 	
 	{
         "link": "https://www.goldennumber.net/wp-content/uploads/pepsi-arnell-021109.pdf",
-        "type": "Paper",
+        "type": "Papers",
         "title":" Pepsi Logo Design"
     },
 	

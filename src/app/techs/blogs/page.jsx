@@ -11,7 +11,7 @@ export default function BlogLinks() {
 
   return (
 
-      <div className="flex flex-col justify-center items-center gap-2 bg-zinc-100 mx-auto border">
+      <div className="flex flex-col justify-center items-center gap-2 w-full bg-zinc-100 mx-auto border">
                   
                <form action="">
                   <input 
@@ -30,7 +30,7 @@ export default function BlogLinks() {
                 </div>                                 
   
 
-    <div className=" flex flex-col items-center mb-16 border-gray-800 bg-zinc-100 p-8">
+    <div className=" flex flex-col mb-16 border-gray-800 bg-zinc-100 p-8">
     
         { 
             techpdflinks.filter((item)=>{                              

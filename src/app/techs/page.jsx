@@ -20,7 +20,7 @@ export default function TechPDFs() {
 
   return (
 
-      <div className="flex flex-col justify-center items-center gap-2 bg-zinc-100 mx-auto border">                            
+      <div className="flex flex-col justify-center items-center gap-2 bg-zinc-100 w-full mx-auto border">                            
                 <form action="">
                   <input 
                     onChange={(e) =>{

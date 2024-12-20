@@ -11,6 +11,12 @@ export default [
 
     },
     {
+        "link":"https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq",
+        "type": "Youtube",
+        "title": "Intro to Database Systems CMU"
+
+    },
+    {
         "link":"https://www.obeythetestinggoat.com/pages/book.html",
         "type": "Text",
         "title":"Python Django testing"
@@ -40,6 +46,12 @@ export default [
 
     },
     {
+        "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
+        "type": "Youtube",
+        "title": "Number System"
+
+    },
+    {
         "link":"https://dba.stackexchange.com/questions/76465/peer-review-of-database-design",
         "type": "",
         "title": "Peer Review of Database Design"
@@ -61,6 +73,12 @@ export default [
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
         "type": "Text",
         "title": "Handling exceptions in Python like a PRO"
+
+    },
+    {
+        "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
+        "type": "Youtube",
+        "title": "Complete Statistics"
 
     },
     {
