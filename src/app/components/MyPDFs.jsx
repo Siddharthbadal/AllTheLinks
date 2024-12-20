@@ -44,9 +44,25 @@ export default function MyPDFs() {
               item: item.title.toLowerCase().includes(search)
             }).map((pl)=>(
                 <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-800  delay-300"> 
+                <div className="capitalize flex flex-row gap-4">
                 <span className="capitalize">
-                    {pl.title}
+                    {pl.title} 
                 </span>
+                <span>
+                      {
+                            pl.type == "Blog" 
+                            ?
+                            <h2 className="text-red-800 font-semibold">{pl.type}</h2>
+                            :
+                            (pl.type == "Book" ?
+                              <h2 className="text-green-800 font-semibold">{pl.type}</h2>
+                              :
+                              <h2 className="text-gray-800 font-semibold">{pl.type}</h2>
+                            )
+              
+                      }
+                     </span>
+                     </div>
             </Link>
             )                
             )

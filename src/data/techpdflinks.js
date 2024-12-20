@@ -1,7 +1,18 @@
 export default [
     {
-        "link":"https://www.obeythetestinggoat.com/pages/book.html",
+        "link":"https://thepythoncodingbook.com/understanding-programming-the-white-room/",
+        "type": "Blog",
+        "title":"The White Room: Understanding Programming"
+    },
+    {
+        "link":"https://diveintosystems.org/book/",
         "type": "",
+        "title": "Dive into Systems"
+
+    },
+    {
+        "link":"https://www.obeythetestinggoat.com/pages/book.html",
+        "type": "Text",
         "title":"Python Django testing"
     },
     {
@@ -21,12 +32,7 @@ export default [
         "title": "Magical Tour of Python Oops"
 
     },
-    {
-        "link":"https://diveintosystems.org/book/",
-        "type": "",
-        "title": "Dive into Systems"
-
-    },
+    
     {
         "link":"https://dcic-world.org/2023-02-21/index.html",
         "type": "Book",
@@ -356,7 +362,7 @@ export default [
     },
     {
         "link": "https://cstack.github.io/db_tutorial/",
-        "type": "",
+        "type": "Blog",
         "title" :  "Let's Build a Simple Database"
     },
     {
@@ -413,6 +419,11 @@ export default [
 		"link": "https://www.javascriptcheatsheet.org/",
 		"type":"Text",
 		"title":"JavaScript Cheat Sheet"
+	},
+	{
+		"link": "https://www.javascriptcheatsheet.org",
+		"type":"Youtube",
+		"title":"Roadmap to Backend Engineering"
 	},
 	
 	
