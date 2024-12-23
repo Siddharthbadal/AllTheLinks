@@ -46,7 +46,8 @@ export default function TechPDFs() {
               item.type.toLowerCase().includes(search)
             }).map((pl)=>(
                 <Link key={pl.link} href={pl.link} target="_blank" 
-                className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-800 hover:font-semibold  delay-400"> 
+                className=" text-gray-600 font-medium mb-2 tracking-wider
+                           hover:text-gray-800 hover:font-semibold  delay-400"> 
                 <div className="capitalize flex flex-row gap-4">
                    <span>
                         {pl.title} 

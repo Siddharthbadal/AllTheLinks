@@ -8,8 +8,8 @@ export default function Home() {
                    
 
                      <h3 className="text-center text-xl text-gray-600">
-                          All tech and non-tech books, <br />
-                           blogs, tutorials and videos links at one place.   
+                          Collection of various tech and non-tech books, <br />
+                           blogs, tutorials, papers and videos links.   
                            <br />                                                     
                           Feel free to use. <br />
                           Always work in Progress. 🚧.

@@ -14,6 +14,11 @@ export default  [
         "type": "Blog",
         "title":"Harry Potter and The Methods of Rationality"
     },
+	{
+        "link": "https://www.youtube.com/playlist?list=PLD69712B84F998857",
+        "type": "Youtube",
+        "title":"Harvard Ethics Class"
+    },
     {
         "link": "https://arxiv.org/pdf/2407.06214",
         "type": "Book",
@@ -85,6 +90,11 @@ export default  [
         "title":"The NAC Protocol"
     },
     {
+        "link": "http://sriramk.com/memos/elop-burning-platforms.pdf",
+        "type": "Business",
+        "title":"Stephen Elop's Burning Platforms"
+    },
+    {
         "link": "https://dergigi.com/assets/files/UO-Economics.pdf",
         "type": "Book",
         "title":"The In-game Economics of Ultima Online"
@@ -120,6 +130,11 @@ export default  [
         "link": "/pdf/Nietzsche-Beyond-Good-and-Evil.pdf",
         "type": "Book",
         "title":"Beyond Good And Evil"
+    },
+    {
+        "link": "http://sriramk.com/memos/jason-kilar-hulu.pdf",
+        "type": "Business",
+        "title":"CEO Hulu on future of content"
     },
     {
         "link": "https://www.runnersworld.com/advanced/a20794176/an-elite-state-of-mind/?page=single",

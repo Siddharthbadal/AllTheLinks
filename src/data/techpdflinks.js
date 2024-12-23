@@ -16,15 +16,16 @@ export default [
         "title": "Intro to Database Systems CMU"
 
     },
-    {
-        "link":"https://www.obeythetestinggoat.com/pages/book.html",
-        "type": "Text",
-        "title":"Python Django testing"
-    },
+    
     {
         "link": "https://learnbyexample.github.io/books/#100-page-python-intro",
-        "type": "",
+        "type": "Book",
         "title": "Python Intro"
+    },
+	{
+        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
+        "type": "Youtube",
+        "title": "Introduction to CS and Programming using Python MIT"
     },
     {
         "link":"https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf",
@@ -32,10 +33,22 @@ export default [
         "title": "The C programming Language"
 
     },
+	{
+        "link":"https://arpitbhayani.me/knowledge-base",
+        "type": "Blog",
+        "title": "Knowledge base by Arpit Bhayani "
+
+    },
     {
         "link":"https://www.thepythoncodingstack.com/p/a-magical-tour-through-object-oriented",
         "type": "Blog",
         "title": "Magical Tour of Python Oops"
+
+    },
+	{
+        "link":"https://www.cs.cmu.edu/~sleator/papers/making-data-structures-persistent.pdf",
+        "type": "Book",
+        "title": "Making Data Structures Persistent" 
 
     },
     
@@ -52,6 +65,11 @@ export default [
 
     },
     {
+        "link":"https://www.obeythetestinggoat.com/pages/book.html",
+        "type": "Text",
+        "title":"Python Django testing"
+    },
+    {
         "link":"https://dba.stackexchange.com/questions/76465/peer-review-of-database-design",
         "type": "",
         "title": "Peer Review of Database Design"
@@ -61,6 +79,12 @@ export default [
         "link":"https://www.listendata.com/2019/08/python-object-oriented-programming.html",
         "type": "Blog",
         "title": "Object Oriented Programming in Python"
+
+    },
+	{
+        "link":"https://www.riochierego.it/mobile/docs/quinta/lab/sams_teach_yourself_sql_in_24_hours_5th_edition.pdf",
+        "type": "Book",
+        "title": "SQL in 24 Hours"
 
     },
     {
@@ -89,7 +113,7 @@ export default [
     },
     {
         "link":"https://learnbyexample.github.io/practice_python_projects/",
-        "type": "",
+        "type": "Github",
         "title": "Practice Python Projects"
 
     },
@@ -126,11 +150,7 @@ export default [
         "type": "Text",
         "title":" Cloud Dictionary"
     },
-    {
-        "link": "https://www.youtube.com/watch?v=snDSB9b8v_E",
-        "type": "Youtube",
-        "title":" Python PyTest"
-    },
+    
     {
         "link": "https://www.youtube.com/watch?v=i7v2m-ebXB4",
         "type": "Youtube",
@@ -166,11 +186,7 @@ export default [
         "type": "Blog",
         "title" :  "DBMS - Blogs "
     },
-    {
-        "link": " https://www.youtube.com/playlist?list=PLxHEfsUVhEwMqw-nDG2zd3mpXpvY1v9xX",
-        "type": "Youtube",
-        "title" :  "SQL Problem Solving - Youtube "
-    },
+    
     {
         "link": "https://www.youtube.com/playlist?list=PL7ersPsTyYt1HnCgrT6Up-pan4yLBpyFs ",
         "type": "Youtube",
@@ -186,31 +202,19 @@ export default [
         "type": "Youtube",
         "title" :  "Data Structures in JavaScript (Hindi) "
     },
-    {
-        "link": "https://www.youtube.com/playlist?list=PLq1qGLnPX0eeeK_JmsiMavOqkZ6tgQjdF ",
-        "type": "Youtube",
-        "title" :  "Coding Practice in Programming using JavaScript "
-    },
+    
     {
         "link": " https://www.youtube.com/watch?v=B_jQzHu6Edo",
         "type": "Youtube",
         "title" :  "Python for Data Science and Data Analytics "
     },
-    {
-        "link": " https://www.youtube.com/playlist?list=PLtfxzVLWb-B-O3VAjxsoZYgG6d8WMnPjG",
-        "type": "Youtube",
-        "title" :  " Leetcode SQL problems "
-    },
+    
     {
         "link": "https://www.youtube.com/watch?v=9g6yvqAAkx4 ",
         "type": "Youtube",
         "title" :  " SQL 50  "
     },
-    {
-        "link": "https://www.youtube.com/watch?v=vpzO8QTrgbc",
-        "type": "Youtube",
-        "title" :  " SQL hackerRank "
-    },
+    
     
     {
         "link": "https://ryanstutorials.net/linuxtutorial/ ",
@@ -237,6 +241,35 @@ export default [
         "type": "Text",
         "title" :  "Linux Journey "
     },
+    
+    {
+        "link": "https://everything.curl.dev/",
+        "type": "Text",
+        "title" :  "Everything Curl"
+    },
+    
+    
+    
+    {
+        "link": "./pypdf/EffectivePython.pdf",
+        "type": "Book",
+        "title" :  "Effective Python"
+    },
+    {
+        "link": "./pypdf/python-one-liners.pdf",
+        "type": "Book",
+        "title" :  "python one liners"
+    },
+    {
+        "link": "./pypdf/LaravelDesignPatternsandBestPractices.pdf",
+        "type": "Book",
+        "title" :  "Laravel Design Patterns and Best Practices"
+    },
+    {
+        "link": "./pypdf/The-big-book-of-small-python-projects.pdf",
+        "type": "Book",
+        "title" :  "The Big Book of small Python projects"
+    },
     {
         "link": "https://overthewire.org/wargames/",
         "type": "Text",
@@ -253,9 +286,19 @@ export default [
         "title" :  " The Bash Guide"
     },
     {
-        "link": "https://everything.curl.dev/",
-        "type": "Text",
-        "title" :  "Everything Curl"
+        "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
+        "type": "Book",
+        "title" :  "The Recursive Book of Python"
+    },
+    {
+        "link": "./pypdf/SQL-in-ten-mintues.pdf",
+        "type": "Book",
+        "title" :  "SQL-in-ten-mintues"
+    },
+    {
+        "link": "./pypdf/javascriptgrammar-dark.pdf",
+        "type": "Book",
+        "title" :  "Javascript Grammar"
     },
     {
         "link": "https://www.youtube.com/playlist?list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p",
@@ -273,35 +316,9 @@ export default [
         "title" :  " SQL Windows Functions"
     },
     {
-        "link": "https://www.youtube.com/watch?v=mm_sN-Elplg",
-        "type": "Youtube",
-        "title" :  " Excel to PowerBI"
-    },
-    
-    {
-        "link": "./pypdf/EffectivePython.pdf",
+        "link": "./pypdf/mastering-php-design-patterns.pdf",
         "type": "Book",
-        "title" :  "Effective Python"
-    },
-    {
-        "link": "./pypdf/python-one-liners.pdf",
-        "type": "Book",
-        "title" :  "python one liners"
-    },
-    {
-        "link": "./pypdf/The-big-book-of-small-python-projects.pdf",
-        "type": "Book",
-        "title" :  "The Big Book of small Python projects"
-    },
-    {
-        "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
-        "type": "Book",
-        "title" :  "The Recursive Book of Python"
-    },
-    {
-        "link": "./pypdf/javascriptgrammar-dark.pdf",
-        "type": "Book",
-        "title" :  "Javascript Grammar"
+        "title" :  "mastering php design patterns"
     },
     {
         "link": "./pypdf/Data_Structures_and_Algorithms_Python.pdf",
@@ -323,31 +340,13 @@ export default [
         "type": "Book",
         "title" :  "Intermediate Python"
     },
-    {
-        "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
-        "type": "Book",
-        "title" :  "Python Grammar"
-    },
-    {
-        "link": "./pypdf/gobook.pdf",
-        "type": "Book",
-        "title" :  "go book"
-    },
-    {
-        "link": "./pypdf/Impractical-Python-Projects.pdf",
-        "type": "Book",
-        "title" :  "Impractical Python Projects"
-    },
+    
     {
         "link": "https://antaripasaha.notion.site/Data-Science-All-in-one-f7b861fc69dd49439231b8c14a0e330b",
         "type": "Notion",
         "title" :  "Data Science Notes "
     },
-    {
-        "link": "http://philip.greenspun.com/sql/",
-        "type": "",
-        "title" :  "SQL for Web Nerds"
-    },
+    
     {
         "link": "https://www.windowfunctions.com/",
         "type": "Text",
@@ -365,13 +364,28 @@ export default [
     },
     {
         "link": "https://www.interdb.jp/pg/",
-        "type": "",
+        "type": "Text",
         "title" :  "The Internals of PostgreSQL"
     },
     {
         "link": "https://use-the-index-luke.com/",
         "type": "Blog",
         "title" :  "Use The Index Luke"
+    },
+    {
+        "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
+        "type": "Book",
+        "title" :  "Python Grammar"
+    },
+    {
+        "link": "./pypdf/gobook.pdf",
+        "type": "Book",
+        "title" :  "go book"
+    },
+    {
+        "link": "./pypdf/Impractical-Python-Projects.pdf",
+        "type": "Book",
+        "title" :  "Impractical Python Projects"
     },
     {
         "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",
@@ -393,11 +407,7 @@ export default [
         "type": "Blog",
         "title" :  "SQL optimization"
     },
-    {
-        "link": "https://mystery.knightlab.com/",
-        "type": "Text",
-        "title" :  "SQL Murder Mystery"
-    },
+    
     {
         "link": "https://www.afterhoursprogramming.com/tutorial/python/python-overview/",
         "type": "Text",
@@ -428,21 +438,8 @@ export default [
         "type": "Youtube",
         "title" :  "JavaScript Algorithms and Data Structures "
     },
-	{
-		"link": "https://www.pythoncheatsheet.org/",
-		"type":"Text",
-		"title":"Python Cheat Sheet"
-	},
-	{
-		"link": "https://www.javascriptcheatsheet.org/",
-		"type":"Text",
-		"title":"JavaScript Cheat Sheet"
-	},
-	{
-		"link": "https://www.javascriptcheatsheet.org",
-		"type":"Youtube",
-		"title":"Roadmap to Backend Engineering"
-	},
+	
+	
 	
 	
 	
