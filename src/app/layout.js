@@ -17,7 +17,7 @@ const geistMono = localFont({
 
 export const metadata = {
   title: "All The Links",
-  description: "Collection of all the PDFs from all around the internet.",
+  description: "Collection of my favourite videos, links, books aand tutorials.",
 };
 
 export default function RootLayout({ children }) {
@@ -26,9 +26,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <div className="flex flex-col lg:h-screen h-screen justify-between">
+        <div className="lg:max-w-[900px] lg:px-16 lg:bg-zinc-50 mx-auto py-8 shadow-xl min-h-screen flex flex-col px-8">
               <Navbar  />     
+              <div className="flex-auto">
                   {children}
+              </div>
               <Footer />
 
         </div>

@@ -8,25 +8,14 @@ export default [
         "link":"https://diveintosystems.org/book/",
         "type": "",
         "title": "Dive into Systems"
-
     },
+        
     {
-        "link":"https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq",
-        "type": "Youtube",
-        "title": "Intro to Database Systems CMU"
-
-    },
-    
-    {
-        "link": "https://learnbyexample.github.io/100_page_python_intro/",
+        "link": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html",
         "type": "",
-        "title": "Python Intro Book"
+        "title": "Practical Python Programming"
     },
-	{
-        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
-        "type": "Youtube",
-        "title": "Introduction to CS and Programming using Python MIT"
-    },
+	
     {
         "link":"https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf",
         "type": "",
@@ -45,12 +34,7 @@ export default [
         "title": "Magical Tour of Python Oops"
 
     },
-	{
-        "link":"https://www.youtube.com/watch?v=JSjWltL9-7M",
-        "type": "Youtube",
-        "title": "Python for linear algebra for beginners"
-
-    },
+	
 	{
         "link":"https://www.cs.cmu.edu/~sleator/papers/making-data-structures-persistent.pdf",
         "type": "",
@@ -65,16 +49,25 @@ export default [
 
     },
     {
-        "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
-        "type": "Youtube",
-        "title": "Number System"
+        "link":"https://exploringjs.com/js/book/index.html",
+        "type": "",
+        "title": " Exploring JavaScript"
 
     },
     {
-        "link":"https://www.obeythetestinggoat.com/pages/book.html",
+        "link":"https://exploringjs.com/deep-js/toc.html",
         "type": "",
-        "title":"Python Django testing"
+        "title": "Deep JavaScript"
+
     },
+    {
+        "link":"https://exploringjs.com/tackling-ts/toc.html",
+        "type": "",
+        "title": "Tackling TypeScript"
+
+    },
+    
+ 
     {
         "link":"https://dba.stackexchange.com/questions/76465/peer-review-of-database-design",
         "type": "",
@@ -93,28 +86,24 @@ export default [
         "title": "SQL in 24 Hours"
 
     },
-    {
-        "link":"https://www.youtube.com/watch?v=eAPmXQ0dC7Q",
-        "type": "Youtube",
-        "title": "Learn Test Driven Development with Python TDD"
-
-    },
+    
     {
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
         "type": "",
         "title": "Handling exceptions in Python like a PRO"
 
     },
-    {
-        "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
-        "type": "Youtube",
-        "title": "Complete Statistics"
-
-    },
+    
     {
         "link":"https://thepythoncodingbook.com/object-oriented-programming/",
         "type": "",
         "title": "Object Oriented Programming in Python"
+
+    },
+    {
+        "link":"http://reasonmlhub.com/exploring-reasonml/toc.html",
+        "type": "",
+        "title": "Exploring ReasonML and functional programming"
 
     },
     {
@@ -142,6 +131,36 @@ export default [
 
     },
     {
+        "link":"https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq",
+        "type": "Youtube",
+        "title": "Intro to Database Systems CMU"
+
+    },
+    {
+        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
+        "type": "Youtube",
+        "title": "Introduction to CS and Programming using Python MIT"
+    },
+    {
+        "link":"https://www.youtube.com/watch?v=JSjWltL9-7M",
+        "type": "Youtube",
+        "title": "Python for linear algebra for beginners"
+
+    },
+    {
+        "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
+        "type": "Youtube",
+        "title": "Number System"
+
+    },
+    
+    {
+        "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
+        "type": "Youtube",
+        "title": "Complete Statistics"
+
+    },
+    {
         "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
         "type": "",
         "title":" The art of computer designing"
@@ -156,27 +175,7 @@ export default [
         "type": "",
         "title":" Cloud Dictionary"
     },
-    
-    {
-        "link": "https://www.youtube.com/watch?v=i7v2m-ebXB4",
-        "type": "Youtube",
-        "title":" Data Science problem Solving with Python Pandas"
-    },
-    {
-        "link": "https://www.youtube.com/watch?v=lvO88XxNAzs ",
-        "type": "Youtube",
-        "title" :  "70 leetcode Problems with Python "
-    },
-    {
-        "link": "https://www.youtube.com/watch?v=WgPbbWmnXJ8 ",
-        "type": "Youtube",
-        "title" :  " Object Detection with Python"
-    },
-    {
-        "link": " https://www.youtube.com/watch?v=lgiQLBwPmTQ&list=PLBx6NLmkcbZ1cMFqzGi2u1Q1M7JPPEB5q",
-        "type": "Youtube",
-        "title" :  " Python SQLAlchemy"
-    },
+            
     {
         "link": "https://pbpython.com/ ",
         "type": "",
@@ -191,28 +190,8 @@ export default [
         "link": "https://www.javatpoint.com/dbms-sql-introduction ",
         "type": "",
         "title" :  "DBMS - Blogs "
-    },
-    
-    
-    {
-        "link": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_Fu6l8irVwXkUyC9Gwqr6_ ",
-        "type": "Youtube",
-        "title" :  " Programming, Data Structures And Algorithims by NPTEL"
-    },
-    
-    
-    {
-        "link": " https://www.youtube.com/watch?v=B_jQzHu6Edo",
-        "type": "Youtube",
-        "title" :  "Python for Data Science and Data Analytics "
-    },
-    
-    {
-        "link": "https://www.youtube.com/watch?v=9g6yvqAAkx4 ",
-        "type": "Youtube",
-        "title" :  " SQL 50  "
-    },
-    
+    },                       
+        
     
     {
         "link": "https://ryanstutorials.net/linuxtutorial/ ",
@@ -253,11 +232,7 @@ export default [
         "type": "",
         "title" :  "Effective Python"
     },
-    {
-        "link": "./pypdf/python-one-liners.pdf",
-        "type": "",
-        "title" :  "python one liners"
-    },
+    
     {
         "link": "./pypdf/LaravelDesignPatternsandBestPractices.pdf",
         "type": "",
@@ -271,7 +246,7 @@ export default [
     {
         "link": "https://overthewire.org/wargames/",
         "type": "",
-        "title" :  " Linux Wargames"
+        "title" :  "Linux Wargames"
     },
     {
         "link": "https://linuxsurvival.com/",
@@ -281,7 +256,7 @@ export default [
     {
         "link": "https://guide.bash.academy/",
         "type": "",
-        "title" :  " The Bash Guide"
+        "title" :  "The Bash Guide"
     },
     {
         "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
@@ -301,13 +276,13 @@ export default [
     {
         "link": "https://www.youtube.com/playlist?list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p",
         "type": "Youtube",
-        "title" :  " FastAPI - Complete"
+        "title" :  "FastAPI - Complete"
     },
     
     {
         "link": "https://www.youtube.com/playlist?list=PLNcg_FV9n7qYbaPnCyc78z3s7km5tjN1A",
         "type": "Youtube",
-        "title" :  " SQL Windows Functions"
+        "title" :  "SQL Windows Functions"
     },
     {
         "link": "./pypdf/mastering-php-design-patterns.pdf",
@@ -385,7 +360,7 @@ export default [
     {
         "link": "https://cstack.github.io/db_tutorial/",
         "type": "",
-        "title" :  "Let's Build a Simple Database"
+        "title" :  "Build a Simple Database"
     },
     {
         "link": "https://sqlzap.com/",
@@ -397,24 +372,6 @@ export default [
         "type": "",
         "title" :  "SQL optimization"
     },
-    
-    {
-        "link": "https://www.afterhoursprogramming.com/tutorial/python/python-overview/",
-        "type": "",
-        "title" :  "After Hour programming Python"
-    },
-    
-    
-    {
-        "link": "https://www.youtube.com/watch?v=EerdGm-ehJQ",
-        "type": "Youtube",
-        "title" :  "JavaScript Complete Course "
-    },
-    
-	
-	
-	
-	
-	
+       
 	
 ]

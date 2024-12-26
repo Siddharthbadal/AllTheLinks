@@ -18,7 +18,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
 
   return (
 
-      <div className="flex flex-col justify-center items-center gap-4 bg-zinc-100 mx-auto">
+      <div className="flex flex-col justify-center items-center gap-4  mx-auto">
                     
           <div className=" ">
                 <form action="">
@@ -34,7 +34,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
           </div>
   
 
-    <div className=" flex flex-col mb-16 border-gray-800 bg-zinc-100 p-8">                     
+    <div className=" flex flex-col mb-16 border-gray-800  p-8">                     
         { 
             currentLinks.filter((item)=>{
               return search.toLowerCase() === '' ?

@@ -14,11 +14,7 @@ export default  [
         "type": "",
         "title":"Harry Potter and The Methods of Rationality"
     },
-	{
-        "link": "https://www.youtube.com/playlist?list=PLD69712B84F998857",
-        "type": "Youtube",
-        "title":"Harvard Ethics Class"
-    },
+	
     {
         "link": "https://arxiv.org/pdf/2407.06214",
         "type": "",
@@ -44,11 +40,7 @@ export default  [
         "type": "",
         "title":"An Option Value Problem from Seinfeld"
     },
-    {
-        "link": "https://www.youtube.com/watch?v=qVgPeGb9XdQ",
-        "type": "Youtube",
-        "title":"Khayal - A Musical Journey"
-    },
+    
     {
         "link": "https://astronomy.org/moravian/C00-Last%20Question.pdf",
         "type": "",
@@ -123,6 +115,11 @@ export default  [
         "link": "https://arxiv.org/pdf/1409.0003",
         "type": "",
         "title":"What You Should Know About Megaprojects, and Why"
+    },
+    {
+        "link": "https://www.obafemio.com/uploads/5/1/4/2/5142021/extreme_ownership__how_us_navy_seals_lead_and_win.pdf",
+        "type": "",
+        "title":"Extreme Ownership"
     },
    
             
