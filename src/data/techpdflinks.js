@@ -1,7 +1,7 @@
 export default [
     {
         "link":"https://thepythoncodingbook.com/understanding-programming-the-white-room/",
-        "type": "Blog",
+        "type": "",
         "title":"The White Room: Understanding Programming"
     },
     {
@@ -18,9 +18,9 @@ export default [
     },
     
     {
-        "link": "https://learnbyexample.github.io/books/#100-page-python-intro",
-        "type": "Book",
-        "title": "Python Intro"
+        "link": "https://learnbyexample.github.io/100_page_python_intro/",
+        "type": "",
+        "title": "Python Intro Book"
     },
 	{
         "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
@@ -29,32 +29,38 @@ export default [
     },
     {
         "link":"https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf",
-        "type": "Text",
+        "type": "",
         "title": "The C programming Language"
 
     },
 	{
         "link":"https://arpitbhayani.me/knowledge-base",
-        "type": "Blog",
+        "type": "",
         "title": "Knowledge base by Arpit Bhayani "
 
     },
     {
         "link":"https://www.thepythoncodingstack.com/p/a-magical-tour-through-object-oriented",
-        "type": "Blog",
+        "type": "",
         "title": "Magical Tour of Python Oops"
 
     },
 	{
+        "link":"https://www.youtube.com/watch?v=JSjWltL9-7M",
+        "type": "Youtube",
+        "title": "Python for linear algebra for beginners"
+
+    },
+	{
         "link":"https://www.cs.cmu.edu/~sleator/papers/making-data-structures-persistent.pdf",
-        "type": "Book",
+        "type": "",
         "title": "Making Data Structures Persistent" 
 
     },
     
     {
         "link":"https://dcic-world.org/2023-02-21/index.html",
-        "type": "Book",
+        "type": "",
         "title": "A Data-Centric Introduction to Computing"
 
     },
@@ -66,7 +72,7 @@ export default [
     },
     {
         "link":"https://www.obeythetestinggoat.com/pages/book.html",
-        "type": "Text",
+        "type": "",
         "title":"Python Django testing"
     },
     {
@@ -77,13 +83,13 @@ export default [
     },
     {
         "link":"https://www.listendata.com/2019/08/python-object-oriented-programming.html",
-        "type": "Blog",
+        "type":"",
         "title": "Object Oriented Programming in Python"
 
     },
 	{
         "link":"https://www.riochierego.it/mobile/docs/quinta/lab/sams_teach_yourself_sql_in_24_hours_5th_edition.pdf",
-        "type": "Book",
+        "type": "",
         "title": "SQL in 24 Hours"
 
     },
@@ -95,7 +101,7 @@ export default [
     },
     {
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
-        "type": "Text",
+        "type": "",
         "title": "Handling exceptions in Python like a PRO"
 
     },
@@ -107,47 +113,47 @@ export default [
     },
     {
         "link":"https://thepythoncodingbook.com/object-oriented-programming/",
-        "type": "Blog",
+        "type": "",
         "title": "Object Oriented Programming in Python"
 
     },
     {
         "link":"https://learnbyexample.github.io/practice_python_projects/",
-        "type": "Github",
+        "type": "",
         "title": "Practice Python Projects"
 
     },
     {
         "link":"https://www.thepythoncodingstack.com/p/the-main-data-structure-categories",
-        "type": "Blog",
+        "type": "",
         "title": "Python Data Strucutres Categories "
 
     },
     {
         "link":"https://learnbyexample.github.io/cli-computing/",
-        "type": "Text",
+        "type": "",
         "title": "Linux Command Line Computing"
 
     },
     {
         "link":"https://github.com/Harsh971/AWS-Projects",
-        "type": "Github",
+        "type": "",
         "title": "AWS projects"
 
     },
     {
         "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
-        "type": "Book",
+        "type": "",
         "title":" The art of computer designing"
     },
     {
         "link": "https://learntocloud.guide/",
-        "type": "Text",
+        "type": "",
         "title":" Learn Cloud Guide"
     },
     {
         "link": "https://definethecloud.guide/",
-        "type": "Text",
+        "type": "",
         "title":" Cloud Dictionary"
     },
     
@@ -173,35 +179,27 @@ export default [
     },
     {
         "link": "https://pbpython.com/ ",
-        "type": "Blog",
+        "type": "",
         "title" :  " Business Python"
     },
     {
         "link": "https://pgexercises.com/questions/basic/selectall.html ",
-        "type": "Text",
+        "type": "",
         "title" :  "Practice PostgreSQL "
     },
     {
         "link": "https://www.javatpoint.com/dbms-sql-introduction ",
-        "type": "Blog",
+        "type": "",
         "title" :  "DBMS - Blogs "
     },
     
-    {
-        "link": "https://www.youtube.com/playlist?list=PL7ersPsTyYt1HnCgrT6Up-pan4yLBpyFs ",
-        "type": "Youtube",
-        "title" :  "DSA Python in Hindi "
-    },
+    
     {
         "link": "https://www.youtube.com/playlist?list=PLyqSpQzTE6M_Fu6l8irVwXkUyC9Gwqr6_ ",
         "type": "Youtube",
         "title" :  " Programming, Data Structures And Algorithims by NPTEL"
     },
-    {
-        "link": " https://www.youtube.com/playlist?list=PLq1qGLnPX0eeqXbr4be-tAEDj4_l6MPp_",
-        "type": "Youtube",
-        "title" :  "Data Structures in JavaScript (Hindi) "
-    },
+    
     
     {
         "link": " https://www.youtube.com/watch?v=B_jQzHu6Edo",
@@ -218,33 +216,33 @@ export default [
     
     {
         "link": "https://ryanstutorials.net/linuxtutorial/ ",
-        "type": "Text",
+        "type": "",
         "title" :  "Complete Linux Tutorials"
     },
     {
         "link": "https://info-ee.surrey.ac.uk/Teaching/Unix/ ",
-        "type": "Text",
+        "type": "",
         "title" :  "UNIX Tutorial for Beginners "
     },
     {
         "link": "https://miteshshah.github.io/linux/basics/ ",
-        "type": "Text",
+        "type": "",
         "title" :  "Linux Basics "
     },
     {
         "link": " https://miteshshah.github.io/",
-        "type": "Blog",
+        "type": "",
         "title" :  " Linux - Blogs"
     },
     {
         "link": "https://linuxjourney.com/ ",
-        "type": "Text",
+        "type": "",
         "title" :  "Linux Journey "
     },
     
     {
         "link": "https://everything.curl.dev/",
-        "type": "Text",
+        "type": "",
         "title" :  "Everything Curl"
     },
     
@@ -252,32 +250,32 @@ export default [
     
     {
         "link": "./pypdf/EffectivePython.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Effective Python"
     },
     {
         "link": "./pypdf/python-one-liners.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "python one liners"
     },
     {
         "link": "./pypdf/LaravelDesignPatternsandBestPractices.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Laravel Design Patterns and Best Practices"
     },
     {
         "link": "./pypdf/The-big-book-of-small-python-projects.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "The Big Book of small Python projects"
     },
     {
         "link": "https://overthewire.org/wargames/",
-        "type": "Text",
+        "type": "",
         "title" :  " Linux Wargames"
     },
     {
         "link": "https://linuxsurvival.com/",
-        "type": "Text",
+        "type": "",
         "title" :  "Linux Survival "
     },
     {
@@ -287,17 +285,17 @@ export default [
     },
     {
         "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "The Recursive Book of Python"
     },
     {
         "link": "./pypdf/SQL-in-ten-mintues.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "SQL-in-ten-mintues"
     },
     {
         "link": "./pypdf/javascriptgrammar-dark.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Javascript Grammar"
     },
     {
@@ -305,11 +303,7 @@ export default [
         "type": "Youtube",
         "title" :  " FastAPI - Complete"
     },
-    {
-        "link": "https://www.youtube.com/playlist?list=PL-2EBeDYMIbQXKsyNweppuFptuogJe2L-",
-        "type": "Youtube",
-        "title" :  "Django ORM Deep Dive  "
-    },
+    
     {
         "link": "https://www.youtube.com/playlist?list=PLNcg_FV9n7qYbaPnCyc78z3s7km5tjN1A",
         "type": "Youtube",
@@ -317,127 +311,106 @@ export default [
     },
     {
         "link": "./pypdf/mastering-php-design-patterns.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "mastering php design patterns"
     },
     {
         "link": "./pypdf/Data_Structures_and_Algorithms_Python.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Data Structures and Algorithms Python"
     },
     {
         "link": "./pypdf/Maths-for-computer-science.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Maths for computer science"
     },
     {
         "link": "./pypdf/dive-into-design-patterns.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Deep Dive into design patterns"
     },
     {
         "link": "./pypdf/Intermediate-Python.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Intermediate Python"
     },
     
     {
         "link": "https://antaripasaha.notion.site/Data-Science-All-in-one-f7b861fc69dd49439231b8c14a0e330b",
-        "type": "Notion",
+        "type": "",
         "title" :  "Data Science Notes "
     },
     
     {
         "link": "https://www.windowfunctions.com/",
-        "type": "Text",
+        "type": "",
         "title" :  "SQL Windows Functions"
     },
     {
         "link": "https://www.sqlshack.com/",
-        "type": "Blog",
-        "title" :  "SQLShack"
-    },
-    {
-        "link": "https://sqlpd.com/",
         "type": "",
-        "title" :  "Practice SQL"
+        "title" :  "SQL Shack Blogs"
     },
+    
     {
         "link": "https://www.interdb.jp/pg/",
-        "type": "Text",
+        "type": "",
         "title" :  "The Internals of PostgreSQL"
     },
     {
         "link": "https://use-the-index-luke.com/",
-        "type": "Blog",
+        "type": "",
         "title" :  "Use The Index Luke"
     },
     {
         "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Python Grammar"
     },
     {
         "link": "./pypdf/gobook.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "go book"
     },
     {
         "link": "./pypdf/Impractical-Python-Projects.pdf",
-        "type": "Book",
+        "type": "",
         "title" :  "Impractical Python Projects"
     },
     {
         "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",
-        "type": "Github",
+        "type": "",
         "title" :  "Database Internals Notes"
     },
     {
         "link": "https://cstack.github.io/db_tutorial/",
-        "type": "Blog",
+        "type": "",
         "title" :  "Let's Build a Simple Database"
     },
     {
         "link": "https://sqlzap.com/",
-        "type": "Blog",
+        "type": "",
         "title" :  "Learn SQL"
     },
     {
         "link": "https://dataschool.com/sql-optimization/",
-        "type": "Blog",
+        "type": "",
         "title" :  "SQL optimization"
     },
     
     {
         "link": "https://www.afterhoursprogramming.com/tutorial/python/python-overview/",
-        "type": "Text",
+        "type": "",
         "title" :  "After Hour programming Python"
     },
-    {
-        "link": "https://www.afterhoursprogramming.com/tutorial/sql/sql-overview/",
-        "type": "Text",
-        "title" :  "After Hour programming SQL"
-    },
-    {
-        "link": "https://programming-23.mooc.fi/",
-        "type": "Text",
-        "title" :  "Python Programming MOOC 2023"
-    },
-    {
-        "link": "https://www.youtube.com/watch?v=LMbGZOU-dtA",
-        "type": "Youtube",
-        "title" :  "Python Oops Hindi"
-    },
+    
+    
     {
         "link": "https://www.youtube.com/watch?v=EerdGm-ehJQ",
         "type": "Youtube",
         "title" :  "JavaScript Complete Course "
     },
-    {
-        "link": "https://www.youtube.com/playlist?list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP",
-        "type": "Youtube",
-        "title" :  "JavaScript Algorithms and Data Structures "
-    },
+    
 	
 	
 	

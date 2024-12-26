@@ -10,9 +10,7 @@ export default function Footer() {
                         <Link className="hover:font-bold text-sm" href="https://www.linkedin.com/in/siddharthbadal/">Sidd</Link>
                     </h5>
 
-                   <small>
-                        <TechNav  /> 
-                    </small>                                                           
+                                                                     
 
             </footer>
   )

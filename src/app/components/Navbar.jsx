@@ -11,10 +11,16 @@ export default function Navbar() {
     </h1>
       <ul className="font-medium flex flex-row justify-center items-stretch gap-8 lg:p-4 md:p-0 mt-2 rounded-lg  lg:flex-row text-gray-600">
         <li>
-          <Link href="/books" className=" underline block py-2 px-3 text-gray-600 rounded  hover:bg-gray-100 tracking-widest" aria-current="page">Books</Link>
+          <Link href="/books" 
+            className=" underline block py-2 px-3 text-gray-600 rounded  hover:bg-gray-100 tracking-widest" aria-current="page">
+              Books
+          </Link>
         </li>
         <li>
-          <Link href="/techs" className="underline tracking-widest block py-2 px-3 text-gray-900 rounded hover:bg-gray-100  md:border-0 ">Tech</Link>
+          <Link href="/techs" 
+            className="underline tracking-widest block py-2 px-3 text-gray-900 rounded hover:bg-gray-100  md:border-0 ">
+                Tech
+          </Link>
         </li>
         
       </ul>
