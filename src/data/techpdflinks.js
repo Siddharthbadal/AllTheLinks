@@ -130,36 +130,7 @@ export default [
         "title": "AWS projects"
 
     },
-    {
-        "link":"https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq",
-        "type": "Youtube",
-        "title": "Intro to Database Systems CMU"
-
-    },
-    {
-        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
-        "type": "Youtube",
-        "title": "Introduction to CS and Programming using Python MIT"
-    },
-    {
-        "link":"https://www.youtube.com/watch?v=JSjWltL9-7M",
-        "type": "Youtube",
-        "title": "Python for linear algebra for beginners"
-
-    },
-    {
-        "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
-        "type": "Youtube",
-        "title": "Number System"
-
-    },
-    
-    {
-        "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
-        "type": "Youtube",
-        "title": "Complete Statistics"
-
-    },
+        
     {
         "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
         "type": "",
@@ -273,17 +244,9 @@ export default [
         "type": "",
         "title" :  "Javascript Grammar"
     },
-    {
-        "link": "https://www.youtube.com/playlist?list=PLqAmigZvYxIL9dnYeZEhMoHcoP4zop8-p",
-        "type": "Youtube",
-        "title" :  "FastAPI - Complete"
-    },
     
-    {
-        "link": "https://www.youtube.com/playlist?list=PLNcg_FV9n7qYbaPnCyc78z3s7km5tjN1A",
-        "type": "Youtube",
-        "title" :  "SQL Windows Functions"
-    },
+    
+    
     {
         "link": "./pypdf/mastering-php-design-patterns.pdf",
         "type": "",

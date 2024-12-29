@@ -90,6 +90,31 @@ export default  [
         "type": "",
         "title":" Strange answers to the psychopath test | Jon Ronson | TED "
     },
+    {
+        "link":"https://www.youtube.com/playlist?list=PLSE8ODhjZXjYDBpQnSymaectKjxCy6BYq",
+        "type": "",
+        "title": "Intro to Database Systems CMU"
+
+    },
+    {
+        "link": "https://www.youtube.com/playlist?list=PLUl4u3cNGP62A-ynp6v6-LGBCzeH3VAQB",
+        "type": "",
+        "title": "Introduction to CS and Programming using Python MIT"
+    },
+    
+    {
+        "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
+        "type": "",
+        "title": "Number System"
+
+    },
+    
+    {
+        "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
+        "type": "",
+        "title": "Complete Statistics"
+
+    },
     
 
 ]
