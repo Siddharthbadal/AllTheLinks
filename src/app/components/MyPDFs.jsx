@@ -47,26 +47,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
               <span className="capitalize">
                   {pl.title} 
               </span>
-              <span>
-                    {
-                          pl.type == "Youtube" 
-                          ?
-                          <h2 className="text-red-800 font-semibold ">
-                            {pl.type}
-                          </h2>
-                          : ''
-                          // (pl.type == "Book" ?
-                          //   <h2 className="text-green-800 font-semibold">
-                          //     {pl.type}
-                          //   </h2>
-                          //   :
-                          //   <h2 className="text-gray-800 font-semibold">
-                          //     {pl.type}
-                          //   </h2>
-                          // )
-            
-                    }
-                   </span>
+              
                    </div>
           </Link>
             :
@@ -75,26 +56,6 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
               <span className="capitalize">
                   {pl.title} 
               </span>
-              <span>
-                    {
-                          pl.type == "Youtube" 
-                          ?
-                          <h2 className="text-red-800 font-semibold ">
-                            {pl.type}
-                          </h2>
-                          : ''
-                          // (pl.type == "Book" ?
-                          //   <h2 className="text-green-800 font-semibold">
-                          //     {pl.type}
-                          //   </h2>
-                          //   :
-                          //   <h2 className="text-gray-800 font-semibold">
-                          //     {pl.type}
-                          //   </h2>
-                          // )
-            
-                    }
-                   </span>
                    </div>
           </Link>
             )                
@@ -103,7 +64,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
 
         <div className="text-center mt-4 border-t-8">
                         <Pagination totalLinks={links.length} linksPerPage={linksPerPage} setCurrentPage={setCurrentPage} currentPage={{currentPage}} />
-                  </div>
+        </div>
             
     </div>
 

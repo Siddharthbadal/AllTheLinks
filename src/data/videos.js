@@ -14,11 +14,7 @@ export default  [
         "type": "",
         "title":"Khayal - A Musical Journey"
     },
-    {
-        "link": "https://www.youtube.com/watch?v=pZ4taEgxplg",
-        "type": "",
-        "title":"Local hero Movie"
-    },
+    
     {
         "link": "https://www.youtube.com/watch?v=5u7euN1HTuU",
         "type": "",
@@ -80,11 +76,7 @@ export default  [
         "type": "",
         "title":"Guy Ritchie You Must Be The Master of Your Own Kingdom"
     },
-    {
-        "link": "https://www.youtube.com/watch?v=RnGvWTRQ9j4",
-        "type": "",
-        "title":"Everyday Virtue | Paterson & David Foster Wallace"
-    },
+    
     {
         "link": "https://www.youtube.com/watch?v=xYemnKEKx0c",
         "type": "",
@@ -113,8 +105,16 @@ export default  [
         "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
         "type": "",
         "title": "Complete Statistics"
-
     },
-    
+	{
+        "link":"https://www.youtube.com/watch?v=NrMINC5xjMs",
+        "type": "",
+        "title": "The Mirror by Andrey Tarkovsky"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=25LUF8GmbFU",
+        "type": "",
+        "title": "MIT Educated Neurosurgeon's story"
+    },
 
 ]
