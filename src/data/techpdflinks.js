@@ -34,14 +34,7 @@ export default [
         "title": "Magical Tour of Python Oops"
 
     },
-	
-	{
-        "link":"https://www.cs.cmu.edu/~sleator/papers/making-data-structures-persistent.pdf",
-        "type": "",
-        "title": "Making Data Structures Persistent" 
-
-    },
-    
+		    
     {
         "link":"https://dcic-world.org/2023-02-21/index.html",
         "type": "",
@@ -66,26 +59,13 @@ export default [
         "title": "Tackling TypeScript"
 
     },
-    
- 
-    {
-        "link":"https://dba.stackexchange.com/questions/76465/peer-review-of-database-design",
-        "type": "",
-        "title": "Peer Review of Database Design"
-
-    },
+        
     {
         "link":"https://www.listendata.com/2019/08/python-object-oriented-programming.html",
         "type":"",
         "title": "Object Oriented Programming in Python"
 
-    },
-	{
-        "link":"https://www.riochierego.it/mobile/docs/quinta/lab/sams_teach_yourself_sql_in_24_hours_5th_edition.pdf",
-        "type": "",
-        "title": "SQL in 24 Hours"
-
-    },
+    },	
     
     {
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
@@ -123,47 +103,13 @@ export default [
         "type": "",
         "title": "Linux Command Line Computing"
 
-    },
-    {
-        "link":"https://github.com/Harsh971/AWS-Projects",
-        "type": "",
-        "title": "AWS projects"
-
-    },
-        
-    {
-        "link": "https://attachments.are.na/1206042/5f2a09f7f597d9bbcee273b0962f9694.pdf?1503244728",
-        "type": "",
-        "title":" The art of computer designing"
-    },
-    {
-        "link": "https://learntocloud.guide/",
-        "type": "",
-        "title":" Learn Cloud Guide"
-    },
-    {
-        "link": "https://definethecloud.guide/",
-        "type": "",
-        "title":" Cloud Dictionary"
-    },
-            
+    },                            
     {
         "link": "https://pbpython.com/ ",
         "type": "",
         "title" :  " Business Python"
-    },
-    {
-        "link": "https://pgexercises.com/questions/basic/selectall.html ",
-        "type": "",
-        "title" :  "Practice PostgreSQL "
-    },
-    {
-        "link": "https://www.javatpoint.com/dbms-sql-introduction ",
-        "type": "",
-        "title" :  "DBMS - Blogs "
-    },                       
-        
-    
+    },    
+                                   
     {
         "link": "https://ryanstutorials.net/linuxtutorial/ ",
         "type": "",
@@ -174,16 +120,8 @@ export default [
         "type": "",
         "title" :  "UNIX Tutorial for Beginners "
     },
-    {
-        "link": "https://miteshshah.github.io/linux/basics/ ",
-        "type": "",
-        "title" :  "Linux Basics "
-    },
-    {
-        "link": " https://miteshshah.github.io/",
-        "type": "",
-        "title" :  " Linux - Blogs"
-    },
+    
+    
     {
         "link": "https://linuxjourney.com/ ",
         "type": "",
@@ -194,16 +132,7 @@ export default [
         "link": "https://everything.curl.dev/",
         "type": "",
         "title" :  "Everything Curl"
-    },
-    
-    
-    
-    {
-        "link": "./pypdf/EffectivePython.pdf",
-        "type": "",
-        "title" :  "Effective Python"
-    },
-    
+    },                
     {
         "link": "./pypdf/LaravelDesignPatternsandBestPractices.pdf",
         "type": "",
@@ -214,16 +143,8 @@ export default [
         "type": "",
         "title" :  "The Big Book of small Python projects"
     },
-    {
-        "link": "https://overthewire.org/wargames/",
-        "type": "",
-        "title" :  "Linux Wargames"
-    },
-    {
-        "link": "https://linuxsurvival.com/",
-        "type": "",
-        "title" :  "Linux Survival "
-    },
+    
+  
     {
         "link": "https://guide.bash.academy/",
         "type": "",
@@ -233,45 +154,18 @@ export default [
         "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
         "type": "",
         "title" :  "The Recursive Book of Python"
-    },
-    {
-        "link": "./pypdf/SQL-in-ten-mintues.pdf",
-        "type": "",
-        "title" :  "SQL-in-ten-mintues"
-    },
+    },   
     {
         "link": "./pypdf/javascriptgrammar-dark.pdf",
         "type": "",
         "title" :  "Javascript Grammar"
     },
-    
-    
-    
+            
     {
         "link": "./pypdf/mastering-php-design-patterns.pdf",
         "type": "",
         "title" :  "mastering php design patterns"
-    },
-    {
-        "link": "./pypdf/Data_Structures_and_Algorithms_Python.pdf",
-        "type": "",
-        "title" :  "Data Structures and Algorithms Python"
-    },
-    {
-        "link": "./pypdf/Maths-for-computer-science.pdf",
-        "type": "",
-        "title" :  "Maths for computer science"
-    },
-    {
-        "link": "./pypdf/dive-into-design-patterns.pdf",
-        "type": "",
-        "title" :  "Deep Dive into design patterns"
-    },
-    {
-        "link": "./pypdf/Intermediate-Python.pdf",
-        "type": "",
-        "title" :  "Intermediate Python"
-    },
+    },               
     
     {
         "link": "https://antaripasaha.notion.site/Data-Science-All-in-one-f7b861fc69dd49439231b8c14a0e330b",
@@ -310,11 +204,7 @@ export default [
         "type": "",
         "title" :  "go book"
     },
-    {
-        "link": "./pypdf/Impractical-Python-Projects.pdf",
-        "type": "",
-        "title" :  "Impractical Python Projects"
-    },
+   
     {
         "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",
         "type": "",
@@ -325,16 +215,7 @@ export default [
         "type": "",
         "title" :  "Build a Simple Database"
     },
-    {
-        "link": "https://sqlzap.com/",
-        "type": "",
-        "title" :  "Learn SQL"
-    },
-    {
-        "link": "https://dataschool.com/sql-optimization/",
-        "type": "",
-        "title" :  "SQL optimization"
-    },
+    
        
 	
 ]

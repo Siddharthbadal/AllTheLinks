@@ -1,6 +1,10 @@
 import MyPDFs from "../components/MyPDFs";
 import videos from "../../data/videos.js"
-import SectionHeading from "../components/SectionHeading";
+
+export const metadata = {
+  title: "Videos | Youtube",
+  description: "Collection of my favourite videos, links, books aand tutorials.",
+};
 
 export default function VideosPage() {
   return (

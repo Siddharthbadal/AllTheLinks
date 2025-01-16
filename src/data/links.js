@@ -57,6 +57,11 @@ export default  [
         "title":"How Complex System fails"
     },
     {
+        "link": "https://www.poetryintranslation.com/PITBR/Italian/DantInf1to7.php",
+        "type": "",
+        "title":"Dante: The Divine Comedy"
+    },
+    {
         "link": "https://www.rand.org/content/dam/rand/pubs/reports/2008/R3765.pdf",
         "type": "",
         "title":"First Strike Stability"
@@ -116,13 +121,13 @@ export default  [
         "type": "",
         "title":"What You Should Know About Megaprojects, and Why"
     },
+       
     {
         "link": "https://www.obafemio.com/uploads/5/1/4/2/5142021/extreme_ownership__how_us_navy_seals_lead_and_win.pdf",
         "type": "",
         "title":"Extreme Ownership"
     },
-   
-            
+               
     {
         "link": "https://www.navalmanack.com/almanack-of-naval-ravikant/table-of-contents",
         "type": "",

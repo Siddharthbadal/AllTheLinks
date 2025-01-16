@@ -51,8 +51,8 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
                    </div>
           </Link>
             :
-            <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-800  delay-300"> 
-              <div className="capitalize flex flex-row gap-4 text-xl">
+            <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-700  delay-100 hover:font-semibold"> 
+              <div className="flex flex-row gap-4 text-xl">
               <span className="capitalize">
                   {pl.title} 
               </span>

@@ -1,11 +1,14 @@
 import MyPDFs from "../components/MyPDFs";
 import pdflinks from "../../data/links.js"
-import SectionHeading from "../components/SectionHeading";
+
+export const metadata = {
+  title: "Books | PDFs",
+  description: "Collection of my favourite videos, links, books aand tutorials.",
+};
 
 export default function BooksPage() {
   return (
-    <div>
-      
+    <div>      
         <MyPDFs alllinks={pdflinks} linkType={''}/>
     </div>
   )

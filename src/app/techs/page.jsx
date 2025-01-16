@@ -1,6 +1,10 @@
 import MyPDFs from "../components/MyPDFs";
 import techpdflinks from "@/data/techpdflinks.js"
-import SectionHeading from "../components/SectionHeading";
+
+export const metadata = {
+  title: "Tech Blogs",
+  description: "Collection of my favourite videos, links, books aand tutorials.",
+};
 
 
 export default function page() {

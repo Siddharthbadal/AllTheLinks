@@ -2,7 +2,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import MyPDFs from "./components/MyPDFs";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -16,7 +16,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "All The Links",
+  title: "Welcome",
   description: "Collection of my favourite videos, links, books aand tutorials.",
 };
 
