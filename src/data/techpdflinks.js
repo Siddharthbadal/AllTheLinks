@@ -10,11 +10,11 @@ export default [
         "title": "Dive into Systems"
     },
         
-    {
-        "link": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html",
-        "type": "",
-        "title": "Practical Python Programming"
-    },
+    // {
+    //     "link": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html",
+    //     "type": "",
+    //     "title": "Practical Python Programming"
+    // },
 	
     {
         "link":"https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf",
@@ -22,18 +22,13 @@ export default [
         "title": "The C programming Language"
 
     },
-	{
-        "link":"https://arpitbhayani.me/knowledge-base",
-        "type": "",
-        "title": "Knowledge base by Arpit Bhayani "
+	
+    // {
+    //     "link":"https://www.thepythoncodingstack.com/p/a-magical-tour-through-object-oriented",
+    //     "type": "",
+    //     "title": "Magical Tour of Python Oops"
 
-    },
-    {
-        "link":"https://www.thepythoncodingstack.com/p/a-magical-tour-through-object-oriented",
-        "type": "",
-        "title": "Magical Tour of Python Oops"
-
-    },
+    // },
 		    
     {
         "link":"https://dcic-world.org/2023-02-21/index.html",
@@ -41,31 +36,31 @@ export default [
         "title": "A Data-Centric Introduction to Computing"
 
     },
-    {
-        "link":"https://exploringjs.com/js/book/index.html",
-        "type": "",
-        "title": " Exploring JavaScript"
+    // {
+    //     "link":"https://exploringjs.com/js/book/index.html",
+    //     "type": "",
+    //     "title": " Exploring JavaScript"
 
-    },
-    {
-        "link":"https://exploringjs.com/deep-js/toc.html",
-        "type": "",
-        "title": "Deep JavaScript"
+    // },
+    // {
+    //     "link":"https://exploringjs.com/deep-js/toc.html",
+    //     "type": "",
+    //     "title": "Deep JavaScript"
 
-    },
-    {
-        "link":"https://exploringjs.com/tackling-ts/toc.html",
-        "type": "",
-        "title": "Tackling TypeScript"
+    // },
+    // {
+    //     "link":"https://exploringjs.com/tackling-ts/toc.html",
+    //     "type": "",
+    //     "title": "Tackling TypeScript"
 
-    },
+    // },
         
-    {
-        "link":"https://www.listendata.com/2019/08/python-object-oriented-programming.html",
-        "type":"",
-        "title": "Object Oriented Programming in Python"
+    // {
+    //     "link":"https://www.listendata.com/2019/08/python-object-oriented-programming.html",
+    //     "type":"",
+    //     "title": "Object Oriented Programming in Python"
 
-    },	
+    // },	
     
     {
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
@@ -86,12 +81,12 @@ export default [
         "title": "Exploring ReasonML and functional programming"
 
     },
-    {
-        "link":"https://learnbyexample.github.io/practice_python_projects/",
-        "type": "",
-        "title": "Practice Python Projects"
+    // {
+    //     "link":"https://learnbyexample.github.io/practice_python_projects/",
+    //     "type": "",
+    //     "title": "Practice Python Projects"
 
-    },
+    // },
     {
         "link":"https://www.thepythoncodingstack.com/p/the-main-data-structure-categories",
         "type": "",
@@ -133,17 +128,7 @@ export default [
         "type": "",
         "title" :  "Everything Curl"
     },                
-    {
-        "link": "./pypdf/LaravelDesignPatternsandBestPractices.pdf",
-        "type": "",
-        "title" :  "Laravel Design Patterns and Best Practices"
-    },
-    {
-        "link": "./pypdf/The-big-book-of-small-python-projects.pdf",
-        "type": "",
-        "title" :  "The Big Book of small Python projects"
-    },
-    
+        
   
     {
         "link": "https://guide.bash.academy/",
@@ -154,18 +139,7 @@ export default [
         "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
         "type": "",
         "title" :  "The Recursive Book of Python"
-    },   
-    {
-        "link": "./pypdf/javascriptgrammar-dark.pdf",
-        "type": "",
-        "title" :  "Javascript Grammar"
-    },
-            
-    {
-        "link": "./pypdf/mastering-php-design-patterns.pdf",
-        "type": "",
-        "title" :  "mastering php design patterns"
-    },               
+    },                         
     
     {
         "link": "https://antaripasaha.notion.site/Data-Science-All-in-one-f7b861fc69dd49439231b8c14a0e330b",
@@ -173,16 +147,16 @@ export default [
         "title" :  "Data Science Notes "
     },
     
-    {
-        "link": "https://www.windowfunctions.com/",
-        "type": "",
-        "title" :  "SQL Windows Functions"
-    },
-    {
-        "link": "https://www.sqlshack.com/",
-        "type": "",
-        "title" :  "SQL Shack Blogs"
-    },
+    // {
+    //     "link": "https://www.windowfunctions.com/",
+    //     "type": "",
+    //     "title" :  "SQL Windows Functions"
+    // },
+    // {
+    //     "link": "https://www.sqlshack.com/",
+    //     "type": "",
+    //     "title" :  "SQL Shack Blogs"
+    // },
     
     {
         "link": "https://www.interdb.jp/pg/",
@@ -194,27 +168,27 @@ export default [
         "type": "",
         "title" :  "Use The Index Luke"
     },
-    {
-        "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
-        "type": "",
-        "title" :  "Python Grammar"
-    },
-    {
-        "link": "./pypdf/gobook.pdf",
-        "type": "",
-        "title" :  "go book"
-    },
+    // {
+    //     "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
+    //     "type": "",
+    //     "title" :  "Python Grammar"
+    // },
+    // {
+    //     "link": "./pypdf/gobook.pdf",
+    //     "type": "",
+    //     "title" :  "go book"
+    // },
    
     {
         "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",
         "type": "",
         "title" :  "Database Internals Notes"
     },
-    {
-        "link": "https://cstack.github.io/db_tutorial/",
-        "type": "",
-        "title" :  "Build a Simple Database"
-    },
+    // {
+    //     "link": "https://cstack.github.io/db_tutorial/",
+    //     "type": "",
+    //     "title" :  "Build a Simple Database"
+    // },
     
        
 	
