@@ -2,7 +2,7 @@ import MyPDFs from "../components/MyPDFs";
 import techpdflinks from "@/data/techpdflinks.js"
 
 export const metadata = {
-  title: "Tech Blogs",
+  title: "Tech",
   description: "Collection of my favourite videos, links, books aand tutorials.",
 };
 

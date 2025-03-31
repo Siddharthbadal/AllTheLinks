@@ -2,7 +2,7 @@ export default  [
     {
         "link":"https://www.youtube.com/watch?v=ccXU7s694kg",
         "type": "",
-        "title":"My dinner with Andre"
+        "title":"My dinner with Andre Movie"
     },
     {
         "link": "https://www.youtube.com/playlist?list=PLD69712B84F998857",

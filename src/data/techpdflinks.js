@@ -10,25 +10,19 @@ export default [
         "title": "Dive into Systems"
     },
         
-    // {
-    //     "link": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html",
-    //     "type": "",
-    //     "title": "Practical Python Programming"
-    // },
-	
+
     {
         "link":"https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf",
         "type": "",
         "title": "The C programming Language"
 
     },
-	
-    // {
-    //     "link":"https://www.thepythoncodingstack.com/p/a-magical-tour-through-object-oriented",
-    //     "type": "",
-    //     "title": "Magical Tour of Python Oops"
+    {
+        "link": "https://linuxjourney.com/ ",
+        "type": "",
+        "title" :  "Linux Journey "
+    },	
 
-    // },
 		    
     {
         "link":"https://dcic-world.org/2023-02-21/index.html",
@@ -36,32 +30,8 @@ export default [
         "title": "A Data-Centric Introduction to Computing"
 
     },
-    // {
-    //     "link":"https://exploringjs.com/js/book/index.html",
-    //     "type": "",
-    //     "title": " Exploring JavaScript"
-
-    // },
-    // {
-    //     "link":"https://exploringjs.com/deep-js/toc.html",
-    //     "type": "",
-    //     "title": "Deep JavaScript"
-
-    // },
-    // {
-    //     "link":"https://exploringjs.com/tackling-ts/toc.html",
-    //     "type": "",
-    //     "title": "Tackling TypeScript"
-
-    // },
-        
-    // {
-    //     "link":"https://www.listendata.com/2019/08/python-object-oriented-programming.html",
-    //     "type":"",
-    //     "title": "Object Oriented Programming in Python"
-
-    // },	
     
+
     {
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
         "type": "",
@@ -117,11 +87,7 @@ export default [
     },
     
     
-    {
-        "link": "https://linuxjourney.com/ ",
-        "type": "",
-        "title" :  "Linux Journey "
-    },
+    
     
     {
         "link": "https://everything.curl.dev/",
@@ -135,11 +101,8 @@ export default [
         "type": "",
         "title" :  "The Bash Guide"
     },
-    {
-        "link": "./pypdf/TheRecursiveBookof-Recursion-Python.pdf",
-        "type": "",
-        "title" :  "The Recursive Book of Python"
-    },                         
+    // 
+                             
     
     {
         "link": "https://antaripasaha.notion.site/Data-Science-All-in-one-f7b861fc69dd49439231b8c14a0e330b",
@@ -147,16 +110,7 @@ export default [
         "title" :  "Data Science Notes "
     },
     
-    // {
-    //     "link": "https://www.windowfunctions.com/",
-    //     "type": "",
-    //     "title" :  "SQL Windows Functions"
-    // },
-    // {
-    //     "link": "https://www.sqlshack.com/",
-    //     "type": "",
-    //     "title" :  "SQL Shack Blogs"
-    // },
+  
     
     {
         "link": "https://www.interdb.jp/pg/",
@@ -168,16 +122,7 @@ export default [
         "type": "",
         "title" :  "Use The Index Luke"
     },
-    // {
-    //     "link": "./pypdf/pythongrammar-I-dark-mode.pdf",
-    //     "type": "",
-    //     "title" :  "Python Grammar"
-    // },
-    // {
-    //     "link": "./pypdf/gobook.pdf",
-    //     "type": "",
-    //     "title" :  "go book"
-    // },
+ 
    
     {
         "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",

@@ -107,6 +107,11 @@ export default  [
         "title":"How to swim with sharks"
     },
     {
+        "link": "https://www.eastoftheweb.com/",
+        "type": "",
+        "title":"Short Storing from around the world"
+    },
+    {
         "link": "https://www.maths.ed.ac.uk/~v1ranick/papers/wigner.pdf",
         "type": "",
         "title":"The Unreasonable effectiveness of mathmatics in the natural science"
