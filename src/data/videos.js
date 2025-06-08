@@ -82,8 +82,7 @@ export default  [
         "type": "",
         "title":" Strange answers to the psychopath test | Jon Ronson | TED "
     },
-    
-    
+        
     {
         "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
         "type": "",
@@ -91,11 +90,6 @@ export default  [
 
     },
     
-    {
-        "link":"https://www.youtube.com/playlist?list=PL0o_zxa4K1BVsziIRdfv4Hl4UIqDZhXWV",
-        "type": "",
-        "title": "Complete Statistics"
-    },
 	{
         "link":"https://www.youtube.com/watch?v=NrMINC5xjMs",
         "type": "",
@@ -109,17 +103,22 @@ export default  [
 	{
         "link":"https://www.youtube.com/watch?v=QgNHmxIqKuA",
         "type": "",
-        "title": "David Whyte Lost"
+        "title": "David Whyte - Lost"
     },
 	{
         "link":"https://archive.org/details/ordinary-people-1980-robert-redford_202309",
         "type": "",
-        "title": "Ordinary people Movie"
+        "title": "Ordinary people - Movie"
     },
 	{
         "link":"https://www.youtube.com/watch?v=pCofmZlC72g",
         "type": "",
         "title": "Sam harris On Free Will"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=IA4RP1dwcU4",
+        "type": "",
+        "title": "Chinese Coffee - Movie"
     },
 
 ]
