@@ -116,5 +116,10 @@ export default  [
         "type": "",
         "title": "Ordinary people Movie"
     },
+	{
+        "link":"https://www.youtube.com/watch?v=pCofmZlC72g",
+        "type": "",
+        "title": "Sam harris On Free Will"
+    },
 
 ]
