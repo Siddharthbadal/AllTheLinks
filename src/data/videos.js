@@ -2,7 +2,7 @@ export default  [
     {
         "link":"https://www.youtube.com/watch?v=ccXU7s694kg",
         "type": "",
-        "title":"My dinner with Andre Movie"
+        "title":"My dinner with Andre - Movie"
     },
     {
         "link": "https://www.youtube.com/playlist?list=PLD69712B84F998857",
@@ -39,7 +39,7 @@ export default  [
     {
         "link": "https://www.youtube.com/watch?v=xuCn8ux2gbs",
         "type": "",
-        "title":"history of the entire world, i guess"
+        "title":"History of the entire world, i guess"
     },
     {
         "link": "https://www.youtube.com/watch?v=b_rjBWmc1iQ",
@@ -74,21 +74,14 @@ export default  [
     {
         "link": "https://www.youtube.com/watch?v=rd3yeX1-SaM",
         "type": "",
-        "title":"Guy Ritchie You Must Be The Master of Your Own Kingdom"
+        "title":"Guy Ritchie The Master of Your Own Kingdom"
     },
     
     {
         "link": "https://www.youtube.com/watch?v=xYemnKEKx0c",
         "type": "",
-        "title":" Strange answers to the psychopath test | Jon Ronson | TED "
-    },
-        
-    {
-        "link":"https://www.youtube.com/playlist?list=PLOoogDtEDyvvLxig0poIGPWnGF74R4uxq",
-        "type": "",
-        "title": "Number System"
-
-    },
+        "title":" Strange answers to the psychopath test "
+    },        
     
 	{
         "link":"https://www.youtube.com/watch?v=NrMINC5xjMs",
@@ -116,9 +109,29 @@ export default  [
         "title": "Sam harris On Free Will"
     },
 	{
-        "link":"https://www.youtube.com/watch?v=IA4RP1dwcU4",
+        "link":"https://www.youtube.com/watch?v=DWECyycQOqo",
         "type": "",
-        "title": "Chinese Coffee - Movie"
+        "title": "The Adversary by Satyajit Ray"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=MnFGpJfSQFA",
+        "type": "",
+        "title": "Cinema Paradiso"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=rJBlTNynQlY",
+        "type": "",
+        "title": "The best of Youth - Movie"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=OnzjKLDBKXo",
+        "type": "",
+        "title": "Pirosmani  - Movie"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=mKLOAvOfevU",
+        "type": "",
+        "title": "Stranger Than Paradise  - Movie"
     },
 
 ]

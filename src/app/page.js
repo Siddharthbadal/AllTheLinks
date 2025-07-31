@@ -7,7 +7,7 @@ export default function Home() {
                 Few links, vidoes and books.
                   <br />       
                                                                
-               🚧
+               
             </h3>
 
        </div>
