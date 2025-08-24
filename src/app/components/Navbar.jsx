@@ -6,7 +6,7 @@ import { navlinks } from "@/data/navlinks"
 import clsx from "clsx";
 
 export default function Navbar() {
-  const [activeSection, setActiveSection] = useState('Books')
+  const [activeSection, setActiveSection] = useState('read')
   return (
     
 

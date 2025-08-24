@@ -71,11 +71,7 @@ export default  [
         "type": "",
         "title":"Bitcoin: A Peer-to-Peer Electronic Cash System"
     },
-    {
-        "link": "https://cran.r-project.org/web/packages/psyphy/psyphy.pdf",
-        "type": "",
-        "title":"Functions for Analyzing Psycho-physical Data in R- psyphy"
-    },
+    
     {
         "link": "https://gandalf.fee.urv.cat/professors/AntonioQuesada/Curs1920/Cipolla_laws.pdf",
         "type": "",
@@ -198,9 +194,7 @@ export default  [
         "type": "",
         "title":"Outwitting the Devil"
     },
-  
-    
-    
+          
     {
         "link": "https://www2.census.gov/prod2/statcomp/documents/HistoricalStatisticsoftheUnitedStates1789-1945.pdf",
         "type": "",

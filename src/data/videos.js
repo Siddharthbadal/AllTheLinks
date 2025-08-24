@@ -118,20 +118,11 @@ export default  [
         "type": "",
         "title": "Cinema Paradiso"
     },
+	
 	{
-        "link":"https://www.youtube.com/watch?v=rJBlTNynQlY",
+        "link":"https://www.youtube.com/watch?v=CcP8db8TeKI",
         "type": "",
-        "title": "The best of Youth - Movie"
-    },
-	{
-        "link":"https://www.youtube.com/watch?v=OnzjKLDBKXo",
-        "type": "",
-        "title": "Pirosmani  - Movie"
-    },
-	{
-        "link":"https://www.youtube.com/watch?v=mKLOAvOfevU",
-        "type": "",
-        "title": "Stranger Than Paradise  - Movie"
+        "title": "Cornell AI history lecture"
     },
 
 ]

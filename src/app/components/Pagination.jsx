@@ -1,5 +1,3 @@
-import { useState } from "react"
-
 export const Pagination = ({ totalLinks, linksPerPage, setCurrentPage, currentPage}) => {
     let pages = [];
     for (let i = 1; i<= Math.ceil(totalLinks/linksPerPage); i++){

@@ -1,6 +1,6 @@
 import Link from "next/link"
 import Navbar from "./Navbar"
-import TechNav from "./TechNav"
+
 
 export default function Footer() {
   return (
