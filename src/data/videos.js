@@ -124,5 +124,10 @@ export default  [
         "type": "",
         "title": "Cornell AI history lecture"
     },
+	{
+        "link":"https://www.youtube.com/watch?v=DCbGM4mqEVw",
+        "type": "",
+        "title": "This Is Water David Foster Wallace"
+    },
 
 ]

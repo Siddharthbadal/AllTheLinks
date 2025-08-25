@@ -5,20 +5,35 @@ export default  [
         "title":"The Lazy Man's Guide to Enlightenment"
     },
     {
+        "link":"https://libraryofagartha.com/Philosophy/Traditionalism/Romanian/Emil%20Cioran/Cioran,%20E.%20M.%20-%20Trouble%20With%20Being%20Born%20(Seaver,%202011).pdf",
+        "type": "",
+        "title":"The Trouble with Being Born : E. M. Cioran"
+    },
+    {
         "link": "http://cs.gettysburg.edu/~duncjo01/assets/writings/library/NothingMattersbyCarles.pdf",
         "type": "",
         "title":"Nothing Matters by Carles"
+    },
+    {
+        "link": "https://lab.cccb.org/en/the-i-in-the-internet/",
+        "type": "",
+        "title":"The I in the Internet"
     },
     {
         "link": "https://hpmor.com/",
         "type": "",
         "title":"Harry Potter and The Methods of Rationality"
     },
+    {
+        "link": "http://bulletin-archive.kenyon.edu/x4280.html",
+        "type": "",
+        "title":"This is Water David Foster Wallace"
+    },
 	
     {
-        "link": "https://arxiv.org/pdf/2407.06214",
+        "link": "https://www.planetpublish.com/wp-content/uploads/2011/11/Notes_from_the_Underground_NT.pdf",
         "type": "",
-        "title":"Guarded Successor: A Novel Temporal Logic"
+        "title":"Notes from the Underground Fyodor Dostoevsky"
     },
     {
         "link": "https://www.andrewburke.me/media/Gracian.pdf",
@@ -26,36 +41,38 @@ export default  [
         "title":"The art of worldly wisdom"
     },
     {
-        "link": "https://oms-inet.files.svdcdn.com/production/files/JEL-v2.0.pdf",
+        "link": "https://openlibrary-repo.ecampusontario.ca/jspui/bitstream/123456789/1145/4/The-Bell-Jar-1645639688._print.pdf",
         "type": "",
-        "title":"Agent-Based Modeling in Economics and Finance"
+        "title":"The Bell Jar : Sylvia Plath"
     },
     {
-        "link": "https://www.cia.gov/readingroom/docs/CIA-RDP96-00788R001700210016-5.pdf",
+        "link": "https://www.newyorker.com/magazine/2017/02/13/when-things-go-missing",
         "type": "",
-        "title":"Analysis and Assessment of Gateway process"
-    },
-    {
-        "link": "https://www.princeton.edu/~dixitak/home/Elaine-Final-Web.pdf",
-        "type": "",
-        "title":"An Option Value Problem from Seinfeld"
+        "title":"When Things Go Missing"
     },
     
+    {
+        "link": "https://whatrocks.github.io/commencement-db/1983-margaret-atwood-university-of-toronto/",
+        "type": "",
+        "title":"Attitude Margaret Atwood"
+    },    
     {
         "link": "https://astronomy.org/moravian/C00-Last%20Question.pdf",
         "type": "",
         "title":"The Last Question Isaac Asimov"
     },
+    
     {
         "link": "https://lamport.azurewebsites.net/pubs/lamport-paxos.pdf",
         "type": "",
         "title":"The Part Time Parliament"
     },
     {
-        "link": "https://www.researchgate.net/publication/228797158_How_complex_systems_fail",
+        "link": "https://thoughtcatalog.com/sheila-heti/2013/07/why-go-out/",
         "type": "",
-        "title":"How Complex System fails"
+        "title":"Why go out?"
     },
+    
     {
         "link": "https://www.poetryintranslation.com/PITBR/Italian/DantInf1to7.php",
         "type": "",
@@ -71,6 +88,16 @@ export default  [
         "type": "",
         "title":"Bitcoin: A Peer-to-Peer Electronic Cash System"
     },
+    {
+        "link": "https://www.susanorlean.com/articles/place_to_disappear.html",
+        "type": "",
+        "title":"The Place to Disappear"
+    },
+    {
+        "link": "https://www.holybooks.com/wp-content/uploads/Nietzsche-The-Birth-of-Tragedy.pdf",
+        "type": "",
+        "title":"The Birth of Tragedy: Friedrich Nietzsche"
+    },
     
     {
         "link": "https://gandalf.fee.urv.cat/professors/AntonioQuesada/Curs1920/Cipolla_laws.pdf",
@@ -82,21 +109,13 @@ export default  [
         "type": "",
         "title":"Monarch: The New Phonix Project"
     },
-    {
-        "link": "https://www.docdroid.net/4H1DgHE/nac-protocol-printable-pdf",
-        "type": "",
-        "title":"The NAC Protocol"
-    },
+    
     {
         "link": "http://sriramk.com/memos/elop-burning-platforms.pdf",
         "type": "",
         "title":"Stephen Elop's Burning Platforms"
     },
-    {
-        "link": "https://dergigi.com/assets/files/UO-Economics.pdf",
-        "type": "",
-        "title":"The In-game Economics of Ultima Online"
-    },
+  
     {
         "link": "https://med.emory.edu/departments/neurology/_documents/cousteau_swimming_sharks.pdf",
         "type": "",
@@ -112,22 +131,12 @@ export default  [
         "type": "",
         "title":"The Unreasonable effectiveness of mathmatics in the natural science"
     },
-    {
-        "link": "https://www2.imm.dtu.dk/pubdb/pubs/3274-full.html",
-        "type": "",
-        "title":" The Matrix Cookbook"
-    },
+    
     {
         "link": "https://arxiv.org/pdf/1409.0003",
         "type": "",
         "title":"What You Should Know About Megaprojects, and Why"
-    },
-       
-    {
-        "link": "https://www.obafemio.com/uploads/5/1/4/2/5142021/extreme_ownership__how_us_navy_seals_lead_and_win.pdf",
-        "type": "",
-        "title":"Extreme Ownership"
-    },
+    },       
                
     {
         "link": "https://www.navalmanack.com/almanack-of-naval-ravikant/table-of-contents",
@@ -138,6 +147,11 @@ export default  [
         "link": "/pdf/Nietzsche-Beyond-Good-and-Evil.pdf",
         "type": "",
         "title":"Beyond Good And Evil"
+    },
+    {
+        "link": "/pdf/Ernest-Becker-The-Denial-of-Death.pdf",
+        "type": "",
+        "title":"The Denial of Death"
     },
     {
         "link": "http://sriramk.com/memos/jason-kilar-hulu.pdf",
@@ -175,6 +189,11 @@ export default  [
         "title":"It Didn't Start With You"
     },
     {
+        "link": "/pdf/AfterLifebyJoanDidion.pdf",
+        "type": "",
+        "title":"After Life by Joan Didion"
+    },
+    {
         "link": "/pdf/OnTheShortnessofLife-Seneca.pdf",
         "type": "",
         "title":"On The Shortness of Life Seneca"
@@ -189,12 +208,7 @@ export default  [
         "type": "",
         "title":"Fooled By Randomness"
     },
-    {
-        "link": "https://archive.org/details/outwitting-the-devil-napoleon-hill/page/115/mode/2up",
-        "type": "",
-        "title":"Outwitting the Devil"
-    },
-          
+              
     {
         "link": "https://www2.census.gov/prod2/statcomp/documents/HistoricalStatisticsoftheUnitedStates1789-1945.pdf",
         "type": "",
@@ -211,13 +225,7 @@ export default  [
         "type": "",
         "title":" Pepsi Logo Design"
     },
-	
-	{
-        "link": "https://champ.usuhs.edu/sites/default/files/2020-03/navysealfitnessguide.pdf",
-        "type": "",
-        "title":" navy seal fitness guide"
-    },	
-	
+		
 	{
         "link": "https://dutraeconomicus.wordpress.com/wp-content/uploads/2014/02/you-are-not-so-smart.pdf",
         "type": "",
