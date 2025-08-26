@@ -30,7 +30,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
               item.type.toLowerCase().includes(search)
             }).map((pl)=>(
               
-            <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-600 font-medium mb-2 tracking-wider hover:text-gray-700  delay-100 hover:font-semibold"> 
+            <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-300 font-medium mb-2 tracking-wider hover:text-gray-400  delay-100 "> 
               <div className="flex flex-row gap-4 text-xl">
               <span className="capitalize">
                   {pl.title} 
@@ -41,7 +41,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
             )
         }
 
-        <div className="text-center mt-4 border-t-8">
+        <div className="text-center mt-4 border-t-2 border-gray-400 text-gray-400">
                 <Pagination totalLinks={links.length} linksPerPage={linksPerPage} setCurrentPage={setCurrentPage} currentPage={{currentPage}} />
         </div>
             
