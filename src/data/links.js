@@ -78,11 +78,7 @@ export default  [
         "type": "",
         "title":"Dante: The Divine Comedy"
     },
-    {
-        "link": "https://www.rand.org/content/dam/rand/pubs/reports/2008/R3765.pdf",
-        "type": "",
-        "title":"First Strike Stability"
-    },
+    
     {
         "link": "https://bitcoin.org/bitcoin.pdf",
         "type": "",
@@ -104,12 +100,7 @@ export default  [
         "type": "",
         "title":"The Basic law of stupidity"
     },
-    {
-        "link": "https://targetedindividualscanada.com/wp-content/uploads/2011/12/monarch-the-new-phoenix-program.pdf",
-        "type": "",
-        "title":"Monarch: The New Phonix Project"
-    },
-    
+        
     {
         "link": "http://sriramk.com/memos/elop-burning-platforms.pdf",
         "type": "",
@@ -208,18 +199,7 @@ export default  [
         "type": "",
         "title":"Fooled By Randomness"
     },
-              
-    {
-        "link": "https://www2.census.gov/prod2/statcomp/documents/HistoricalStatisticsoftheUnitedStates1789-1945.pdf",
-        "type": "",
-        "title":" Historical Statistics of United States"
-    },
-	{
-        "link": "https://archive.org/details/take-ivy-t.-hayashida/mode/2up",
-        "type": "",
-        "title":" Take Ivy Images"
-    },
-	
+              		
 	{
         "link": "https://www.goldennumber.net/wp-content/uploads/pepsi-arnell-021109.pdf",
         "type": "",

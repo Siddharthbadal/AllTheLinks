@@ -36,7 +36,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
                             "> 
               <div className="flex flex-row gap-4 text-lg">
               <span className="text-gray-500 mb-2 tracking-wider capitalize hover:text-gray-600  delay-100 ">
-                  {pl.title} 
+                  {pl.title}  
               </span>
                    </div>
           </Link>

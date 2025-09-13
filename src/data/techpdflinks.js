@@ -20,7 +20,7 @@ export default [
     {
         "link":"https://guicommits.com/handling-exceptions-in-python-like-a-pro/",
         "type": "",
-        "title": "Handling exceptions in Python like a PRO"
+        "title": "Handling exceptions in Python like a pro"
 
     },
     
