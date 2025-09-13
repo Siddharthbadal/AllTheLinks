@@ -1,12 +1,27 @@
+import Image from "next/image";
 
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-        <div className=" flex justify-center items-center gap-2 p-12 lg:mt-0 mt-12">                   
-            <h3 className="text-center text-2xl text-gray-500">
-                For those who like to read and watch good things.                     
+    <div className="min-h-screen mt-auto flex flex-col items-center gap-8 mb-2 ">                   
+            <div className="mt-8">
+              <h3 className="text-center text-lg text-gray-600 ">
+                Collection of videos, books, and technical content                     
             </h3>
+            </div>
+
+            <Image  
+                src={"/images/home-page.jpg"}
+                alt="banner"
+                width={480}
+                height={480}
+
+                className="h-auto max-w-sm rounded-lg "
+            />
 
        </div>
-  );
+  )
 }
+
+export default page

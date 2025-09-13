@@ -8,5 +8,9 @@ export const navlinks = [
       name: "videos",
       hash: "#videos",
     },
+    {
+      name: "techs",
+      hash: "#techs",
+    },
     
   ] 

@@ -1,22 +1,16 @@
-import localFont from "next/font/local";
+ import { Inter } from 'next/font/google';
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const inter = Inter({
+  subsets: ['latin']
+})
+
 
 export const metadata = {
-  title: "Welcome",
+  title: "Books | Videos",
   description: "Collection of my favourite videos, links, books aand tutorials.",
 };
 
@@ -24,13 +18,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-900` }
+        className={`${inter.className}  antialiased bg-zinc-200/20` }
       >
-        <div className="lg:max-w-[900px]  min-h-screen lg:px-16 lg:bg-zinc-800 bg-zinc-800 mx-auto py-8 shadow-xl flex flex-col px-8">
+        <div className=" ">
                     <Navbar  />     
-                    <div className="flex-auto">
+                    
                         {children}
-                    </div>
+                    
                     <Footer />
         </div>            
       </body>

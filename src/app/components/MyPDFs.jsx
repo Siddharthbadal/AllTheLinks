@@ -17,22 +17,25 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
 
   return (
 
-      <div className="flex flex-col justify-center items-center gap-4  mx-auto">
+      <div className=" h-full flex flex-col justify-center items-center mb-4  mx-auto">
                     
-         
-  
-
-    <div className=" flex flex-col mb-16 border-gray-800  p-8">                     
+    <div className="w-full md:w-1/2 shadow-2xl rounded-md p-8 bg-zinc-100/20">                     
         { 
             currentLinks.filter((item)=>{
               return search.toLowerCase() === '' ?
-              item: item.title.toLowerCase().includes(search) ||
-              item.type.toLowerCase().includes(search)
+              item: item.title.toLowerCase()||
+              item.type.toLowerCase()
             }).map((pl)=>(
               
-            <Link key={pl.link} href={pl.link} target="_blank" className=" text-gray-300 font-medium mb-2 tracking-wider hover:text-gray-400  delay-100 "> 
-              <div className="flex flex-row gap-4 text-xl">
-              <span className="capitalize">
+            <Link 
+                key={pl.link} 
+                href={pl.link} 
+                target="_blank" 
+                className="  
+                               
+                            "> 
+              <div className="flex flex-row gap-4 text-lg">
+              <span className="text-gray-500 mb-2 tracking-wider capitalize hover:text-gray-600  delay-100 ">
                   {pl.title} 
               </span>
                    </div>
@@ -41,7 +44,7 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
             )
         }
 
-        <div className="text-center mt-4 border-t-2 border-gray-400 text-gray-400">
+        <div className="text-center mt-4 border-t-2 border-gray-400 text-gray-500">
                 <Pagination totalLinks={links.length} linksPerPage={linksPerPage} setCurrentPage={setCurrentPage} currentPage={{currentPage}} />
         </div>
             
