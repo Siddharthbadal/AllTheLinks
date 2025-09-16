@@ -17,9 +17,9 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
 
   return (
 
-      <div className=" h-full flex flex-col justify-center items-center mb-4  mx-auto">
+      <div className=" flex flex-col justify-center items-center mb-4  mx-auto ">
                     
-    <div className="w-full md:w-1/2 shadow-2xl rounded-md p-8 bg-zinc-100/20">                     
+        <div className="w-full md:w-1/2 bg-white/50 shadow-md rounded-md p-8">                     
         { 
             currentLinks.filter((item)=>{
               return search.toLowerCase() === '' ?
@@ -31,14 +31,17 @@ export default function MyPDFs({alllinks, linkType='Youtube'}) {
                 key={pl.link} 
                 href={pl.link} 
                 target="_blank" 
-                className="  
-                               
-                            "> 
-              <div className="flex flex-row gap-4 text-lg">
-              <span className="text-gray-500 mb-2 tracking-wider capitalize hover:text-gray-600  delay-100 ">
-                  {pl.title}  
-              </span>
-                   </div>
+                > 
+              
+              <div className="flex justify-between text-md text-neutral-600 font-semibold mb-2 tracking-wider capitalize hover:text-neutral-700 delay-100 ">
+                <span>
+                  {pl.title}   
+                </span>
+                <span className=" text-neutral-400 hover:text-yellow-800">
+                  { pl.type }
+                </span>
+              </div>
+                   
           </Link>
             )                
             )

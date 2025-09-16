@@ -4,11 +4,6 @@ export default [
         "type": "",
         "title":"The White Room: Understanding Programming"
     },
-    {
-        "link":"https://diveintosystems.org/book/",
-        "type": "",
-        "title": "Dive into Systems"
-    },
         
     {
         "link":"https://courses.physics.ucsd.edu/2014/Winter/physics141/Labs/Lab1/The_C_Programming_Language.pdf",
@@ -66,18 +61,7 @@ export default [
         "type": "",
         "title" :  "The Bash Guide"
     },
-    
-    {
-        "link": "https://github.com/Akshat-Jain/database-internals-notes?tab=readme-ov-file",
-        "type": "",
-        "title" :  "Database Internals Notes"
-    },
-    {
-        "link": "https://cstack.github.io/db_tutorial/",
-        "type": "",
-        "title" :  "Build a Simple Database"
-    },
-    
-       
+      
+          
 	
 ]

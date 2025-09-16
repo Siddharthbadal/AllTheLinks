@@ -4,7 +4,7 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className="min-h-screen mt-auto flex flex-col items-center gap-8 mb-2 ">                   
+    <div className="  h-screen mt-auto flex flex-col items-center gap-8 mb-2 ">                   
             <div className="mt-8">
               <h3 className="text-center text-lg text-gray-600 ">
                 Collection of videos, books, and technical content                     

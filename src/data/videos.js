@@ -2,16 +2,16 @@ export default  [
     {
         "link":"https://www.youtube.com/watch?v=ccXU7s694kg",
         "type": "movie",
-        "title":"My dinner with Andre - Movie"
+        "title":"My dinner with Andre"
     },
     {
         "link": "https://www.youtube.com/playlist?list=PLD69712B84F998857",
-        "type": "Lecture",
+        "type": "Course",
         "title":"Harvard Ethics Class"
     },
     {
         "link": "https://www.youtube.com/watch?v=GfH4QL4VqJ0",
-        "type": "Documentry",
+        "type": "Tech",
         "title":"Python: The Documentary"
     },
     {
@@ -22,29 +22,29 @@ export default  [
     
     {
         "link": "https://www.youtube.com/watch?v=5u7euN1HTuU",
-        "type": "Video",
+        "type": "",
         "title":"The Kennedy Assassination: Inside the Book Depository"
     },
     {
         "link": "https://www.youtube.com/watch?v=lADBHDg-JtA",
-        "type": "Video",
+        "type": "",
         "title":"The Enduring Mystery of Jack the Ripper"
     },
     {
         "link": "https://www.youtube.com/watch?v=w3EYKuFGJ5c",
-        "type": "Video",
+        "type": "",
         "title":"The Fake Genius: a $30 Billion Fraud"
     },
     {
         "link": "https://www.youtube.com/watch?v=EFkyxzJtiv4",
-        "type": "Self Improvement",
+        "type": "",
         "title":"Stoicism: Become Undefeatable"
     },
     
     {
         "link": "https://www.youtube.com/watch?v=xuCn8ux2gbs",
-        "type": "video",
-        "title":"History of the entire world, i guess"
+        "type": "",
+        "title":"History of the entire world, I guess"
     },
     {
         "link": "https://www.youtube.com/watch?v=b_rjBWmc1iQ",
@@ -59,17 +59,17 @@ export default  [
     
     {
         "link": "https://www.youtube.com/watch?v=JTfhYyTuT44",
-        "type": "Explore",
+        "type": "Science",
         "title":"In Search Of A Flat Earth"
     },
     {
         "link": "https://www.youtube.com/watch?v=v5DqmTtCPiQ",
-        "type": "video",
+        "type": "",
         "title":"Who's Afraid of Modern Art"
     },
     {
         "link": "https://www.youtube.com/watch?v=FCfpOugmd9E",
-        "type": "video",
+        "type": "",
         "title":"David Foster Wallace and the problem of loneliness"
     },
     {
@@ -95,17 +95,17 @@ export default  [
     },
 	{
         "link":"https://www.youtube.com/watch?v=m-d_vpB9goI",
-        "type": "Litrature",
+        "type": "Science",
         "title": "What Is Nothing?"
     },
 	{
         "link":"https://archive.org/details/ordinary-people-1980-robert-redford_202309",
         "type": "movie",
-        "title": "Ordinary people - Movie"
+        "title": "Ordinary people "
     },
 	{
         "link":"https://www.youtube.com/watch?v=pCofmZlC72g",
-        "type": "lecture",
+        "type": "speech",
         "title": "Sam harris On Free Will"
     },
 	{
@@ -116,12 +116,12 @@ export default  [
 	{
         "link":"https://www.youtube.com/watch?v=MnFGpJfSQFA",
         "type": "movie",
-        "title": "Cinema Paradiso - Movie"
+        "title": "Cinema Paradiso"
     },
 	{
         "link":"https://www.youtube.com/watch?v=6OZFfeHfmkg",
         "type": "movie",
-        "title": "Suraj Ka Satvan Ghoda Hindi Movie"
+        "title": "Suraj Ka Satvan Ghoda"
     },
 	
 	{
@@ -136,7 +136,7 @@ export default  [
     },
 	{
         "link":"https://www.youtube.com/watch?v=pSHVbLPWA28",
-        "type": "speech",
+        "type": "science",
         "title": "How Big is The Universe?"
     },
 
