@@ -114,6 +114,11 @@ export default  [
         "title": "The Adversary by Satyajit Ray"
     },
 	{
+        "link":"https://www.youtube.com/watch?v=ANUunK6kiqU",
+        "type": "",
+        "title": "The Philosophy of Mr. Nobody"
+    },
+	{
         "link":"https://www.youtube.com/watch?v=MnFGpJfSQFA",
         "type": "movie",
         "title": "Cinema Paradiso"
@@ -138,6 +143,11 @@ export default  [
         "link":"https://www.youtube.com/watch?v=pSHVbLPWA28",
         "type": "science",
         "title": "How Big is The Universe?"
+    },
+	{
+        "link":"https://www.youtube.com/watch?v=ZYp7EmEgxg0",
+        "type": "movies",
+        "title": "The 50 Most Life-Changing Movies of All Time"
     },
 
 ]

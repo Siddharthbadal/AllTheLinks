@@ -121,7 +121,7 @@ export default  [
     {
         "link": "/pdf/TheGameofLife-FlorenceScovelShinn.pdf",
         "type": "Book",
-        "title":"The Game of Life Florence ScovelShinn"
+        "title":"The Game of Life : Florence Scovel Shinn"
     },
     {
         "link": "/pdf/FacebookLittleRedBook.pdf",
