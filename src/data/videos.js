@@ -154,5 +154,15 @@ export default [
         "type": "movies",
         "title": "The 50 Most Life-Changing Movies of All Time"
     },
+    {
+        "link": "https://www.youtube.com/watch?v=0zhfCw3cF6Y",
+        "type": "movies",
+        "title": "Deceptive Practice : The Mysteries and Mentors of Ricky Jay"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=yEGzSJASXFA",
+        "type": "movies",
+        "title": "An Honest Liar "
+    },
 
 ]

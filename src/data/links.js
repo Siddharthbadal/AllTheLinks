@@ -80,11 +80,7 @@ export default [
         "type": "Website",
         "title": "Short stories from around the world"
     },
-    {
-        "link": "https://ia803405.us.archive.org/32/items/thus-spoke-zarathustra/Thus%20spoke%20Zarathustra.pdf",
-        "type": "Website",
-        "title": "Thus Spoke Zarathustra - Nietzsche"
-    },
+
 
     {
         "link": "https://www.navalmanack.com/almanack-of-naval-ravikant/table-of-contents",
@@ -107,11 +103,7 @@ export default [
         "type": "Book",
         "title": "The Game of Life : Florence Scovel Shinn"
     },
-    {
-        "link": "/pdf/FacebookLittleRedBook.pdf",
-        "type": "paper",
-        "title": "Facebook Little RedBook"
-    },
+
     {
         "link": "/pdf/ItDidn'tStartWithYou.pdf",
         "type": "book",
@@ -132,18 +124,6 @@ export default [
         "type": "Spirituality",
         "title": "Nothing Matters by Carles"
     },
-    {
-        "link": "https://archive.org/details/5FooledByRandomnessNassimTaleb/page/n131/mode/2up?view=theater",
-        "type": "",
-        "title": "Fooled By Randomness - Taleb"
-    },
-
-    {
-        "link": "https://www.goldennumber.net/wp-content/uploads/pepsi-arnell-021109.pdf",
-        "type": "paper",
-        "title": " Pepsi Logo Design"
-    },
-
     {
         "link": "https://dutraeconomicus.wordpress.com/wp-content/uploads/2014/02/you-are-not-so-smart.pdf",
         "type": "book",
