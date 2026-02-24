@@ -7,17 +7,18 @@ interface LinkItem {
   title: string;
   type: string;
   link: string;
+  about: string;
 }
 
 const typeColors: Record<string, string> = {
-  documentation: 'bg-blue-100 text-blue-800',
-  framework: 'bg-purple-100 text-purple-800',
-  library: 'bg-green-100 text-green-800',
-  styling: 'bg-orange-100 text-orange-800',
-  language: 'bg-red-100 text-red-800',
-  platform: 'bg-pink-100 text-pink-800',
+  Books: 'bg-blue-100 text-blue-800',
+  Blogs: 'bg-purple-100 text-purple-800',
+  Articles: 'bg-green-100 text-green-800',
+  Videos: 'bg-orange-100 text-orange-800',
+  Movies: 'bg-red-100 text-red-800',
 };
 
+const FILTER_TYPES = ['Books', 'Blogs', 'Articles', 'Videos', 'Movies'];
 const LINKS_PER_PAGE = 20;
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [visibleLinks, setVisibleLinks] = useState<number>(0);
   const [currentPage, setCurrentPage] = useState(1);
+  const [selectedFilter, setSelectedFilter] = useState<string | null>(null);
 
   useEffect(() => {
     const fetchLinks = async () => {
@@ -42,13 +44,18 @@ export default function Home() {
     fetchLinks();
   }, []);
 
+  // Filter links based on selected type
+  const filteredLinks = selectedFilter
+    ? links.filter((link) => link.type === selectedFilter)
+    : links;
+
   // Animate links appearing in sequence
   useEffect(() => {
-    if (links.length === 0) return;
+    if (filteredLinks.length === 0) return;
 
     const startIdx = (currentPage - 1) * LINKS_PER_PAGE;
     const endIdx = startIdx + LINKS_PER_PAGE;
-    const pageLinks = links.slice(startIdx, endIdx);
+    const pageLinks = filteredLinks.slice(startIdx, endIdx);
 
     setVisibleLinks(0);
 
@@ -59,15 +66,20 @@ export default function Home() {
         }
         return prev;
       });
-    }, 50);
+    }, 150);
 
     return () => clearInterval(interval);
-  }, [links.length, currentPage]);
+  }, [filteredLinks.length, currentPage]);
+
+  // Reset to page 1 when filter changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [selectedFilter]);
 
   const startIdx = (currentPage - 1) * LINKS_PER_PAGE;
   const endIdx = startIdx + LINKS_PER_PAGE;
-  const paginatedLinks = links.slice(startIdx, endIdx);
-  const totalPages = Math.ceil(links.length / LINKS_PER_PAGE);
+  const paginatedLinks = filteredLinks.slice(startIdx, endIdx);
+  const totalPages = Math.ceil(filteredLinks.length / LINKS_PER_PAGE);
 
   if (loading) {
     return (
@@ -84,11 +96,36 @@ export default function Home() {
           {/* Header */}
           <div className="text-center mb-8 sm:mb-12">
             <h1 className="text-3xl sm:text-5xl font-bold text-white mb-3 sm:mb-4">
-              ReadMarks
+              Links
             </h1>
             <p className="text-slate-400 text-base sm:text-lg">
               Something to Read and Watch.
             </p>
+          </div>
+
+          {/* Filter Buttons */}
+          <div className="flex flex-wrap gap-2 mb-8 justify-center">
+            <button
+              onClick={() => setSelectedFilter(null)}
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 touch-manipulation ${selectedFilter === null
+                ? 'bg-blue-500 text-white'
+                : 'bg-slate-800 text-slate-400 hover:bg-slate-700 active:bg-slate-600'
+                }`}
+            >
+              All
+            </button>
+            {FILTER_TYPES.map((type) => (
+              <button
+                key={type}
+                onClick={() => setSelectedFilter(type)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 touch-manipulation ${selectedFilter === type
+                  ? 'bg-blue-500 text-white'
+                  : 'bg-slate-800 text-slate-400 hover:bg-slate-700 active:bg-slate-600'
+                  }`}
+              >
+                {type}
+              </button>
+            ))}
           </div>
 
           {/* Links Container */}
@@ -114,11 +151,11 @@ export default function Home() {
                       </h3>
                       <div className="flex items-center gap-2">
                         <span
-                          className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${typeColors[item.type] ||
+                          className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${typeColors[item.about] ||
                             'bg-slate-700 text-slate-300'
                             }`}
                         >
-                          {item.type}
+                          {item.about}
                         </span>
                       </div>
                     </div>
@@ -130,9 +167,13 @@ export default function Home() {
           </div>
 
           {/* Empty State */}
-          {links.length === 0 && (
+          {paginatedLinks.length === 0 && (
             <div className="text-center py-12">
-              <p className="text-slate-400 text-base sm:text-lg">No links available</p>
+              <p className="text-slate-400 text-base sm:text-lg">
+                {selectedFilter
+                  ? `No ${selectedFilter} available`
+                  : 'No links available'}
+              </p>
             </div>
           )}
 

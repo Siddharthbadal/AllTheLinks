@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'My Links | Sidd',
+  title: 'Links | Sidd',
   description: 'A curated collection of useful links',
   generator: 'v0.app',
   viewport: 'width=device-width, initial-scale=1, viewport-fit=cover',
@@ -15,10 +15,11 @@ export const metadata: Metadata = {
     icon: [
       {
         url: '/favicon.ico',
-        type: 'image/svg+xml',
+        media: '(prefers-color-scheme: light)',
       },
+
     ],
-    apple: '/icon.png',
+
   },
 }
 
