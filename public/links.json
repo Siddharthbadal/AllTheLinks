@@ -280,5 +280,23 @@
     "type": "Movies",
     "title": "Garm Hava ",
     "about": "Hindi Film"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=-UBbFNeY38k",
+    "type": "Videos",
+    "title": "How To Draw Anything ",
+    "about": "Art"
+  },
+  {
+    "link": "https://www.youtube.com/watch?v=j97XLVU0A2w",
+    "type": "Videos",
+    "title": "A reason not to worry about wasting life",
+    "about": "Life"
+  },
+  {
+    "link": "https://www.holybooks.com/wp-content/uploads/I-Am-That-by-Sri-Nisargadatta-Maharaj.pdf",
+    "type": "Books",
+    "title": "I AM THAT",
+    "about": "Life"
   }
 ]

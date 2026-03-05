@@ -146,13 +146,13 @@ export default function Home() {
                 >
                   <div className="flex items-start justify-between gap-3 sm:gap-4">
                     <div className="flex-1 min-w-0">
-                      <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-blue-400 group-active:text-blue-400 transition-colors mb-2">
+                      <h3 className="text-base sm:text-lg font-semibold text-white group-hover:text-blue-400 group-active:text-blue-400 transition-colors mb-2 capitalize">
                         {item.title}
                       </h3>
                       <div className="flex items-center gap-2">
                         <span
-                          className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium ${typeColors[item.about] ||
-                            'bg-slate-700 text-slate-300'
+                          className={`inline-block px-2 sm:px-3 py-1 rounded-full text-xs sm:text-sm font-medium capitalize ${typeColors[item.about] ||
+                            'bg-slate-700 text-slate-300 capitalize'
                             }`}
                         >
                           {item.about}
